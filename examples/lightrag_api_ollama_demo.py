@@ -48,7 +48,7 @@ if not os.path.exists(WORKING_DIR):
 rag = LightRAG(
     working_dir=WORKING_DIR,
     llm_model_func=ollama_model_complete,
-    llm_model_name="qwen2",
+    llm_model_name="llama3.1",
     llm_model_max_async=4,
     llm_model_max_token_size=32768,
     llm_model_kwargs={"host": "http://183.82.7.112:9066/", "options": {"num_ctx": 32768}},
@@ -109,8 +109,9 @@ async def websocket_endpoint(websocket: WebSocket):
     if inspect.isasyncgen(result):
         asyncio.run(print_stream(result))
     else:
-        await websocket.send_text("Response is not a async generator, There might be a problem with inner dependencies or their connections.")
+        raise Exception("Response is not an async generator, which is required for Streaming, There may be a problem with inner dependencies or their connections.")
     await websocket.close()
+    
 @app.post("/query", response_model=Response)
 async def query_endpoint(request: QueryRequest):
     try:

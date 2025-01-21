@@ -625,7 +625,7 @@ async def kg_query(
 
     ll_keywords = ", ".join(ll_keywords) if ll_keywords else ""
     hl_keywords = ", ".join(hl_keywords) if hl_keywords else ""
-
+    
     logger.info("Using %s mode for query processing", query_param.mode)
 
     # Build context
@@ -645,6 +645,7 @@ async def kg_query(
     If KG doesn't contain any context, ask LLM for an answer, if LLM doesn't have an answer
     return the fail_response
     '''
+    print(context)
     if context is None:
         # response = await use_model_func(query,system_prompt='If you do not have an answer to the question, then reply ONLY with "False"',stream=query_param.stream,)
         return PROMPTS["fail_response"]

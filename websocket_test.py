@@ -69,7 +69,7 @@ async def listen_to_websocket():
 
     async with websockets.connect(uri) as websocket:
         # Send a prompt to the WebSocket server
-        prompt = "is Delhi the capital of India?"
+        prompt = "¿Cuáles son los horarios del call center de hctra?"
         await websocket.send(prompt)
 
         print("Prompt sent to the server. Waiting for response...\n")
@@ -77,8 +77,6 @@ async def listen_to_websocket():
             while True:
                 # Receive streaming chunks
                 chunk = await websocket.recv()
-                # paragraph += chunk  # Append the chunk to the paragraph
-
                 # Clear the current line and print the updated paragraph
                 print(f"{chunk}", end="", flush=True)
         except websockets.exceptions.ConnectionClosed:

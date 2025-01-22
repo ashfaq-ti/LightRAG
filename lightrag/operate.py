@@ -645,7 +645,6 @@ async def kg_query(
     If KG doesn't contain any context, ask LLM for an answer, if LLM doesn't have an answer
     return the fail_response
     '''
-    print(context)
     if context is None:
         # response = await use_model_func(query,system_prompt='If you do not have an answer to the question, then reply ONLY with "False"',stream=query_param.stream,)
         return PROMPTS["fail_response"]

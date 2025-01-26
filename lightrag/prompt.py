@@ -179,7 +179,6 @@ When handling relationships with timestamps:
 {context_data}
 
 Add sections and commentary to the response as appropriate for the length and format. Style the response in markdown.
-If the user's question is not answerable based on the provided data, BUT if you know the answer, then generate the reponse Beginning with "No Related Documents Found in DataBase" and generate the rest of the response using your knowledge.
 """
 
 PROMPTS["keywords_extraction"] = """---Role---

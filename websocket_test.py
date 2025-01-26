@@ -69,7 +69,7 @@ async def listen_to_websocket():
 
     async with websockets.connect(uri) as websocket:
         # Send a prompt to the WebSocket server
-        prompt = "¿Cuáles son los horarios del call center de hctra?"
+        prompt = "What are python keywords? Provide references And page numbers to the sources as well."
         await websocket.send(prompt)
 
         print("Prompt sent to the server. Waiting for response...\n")

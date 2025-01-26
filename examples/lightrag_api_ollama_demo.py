@@ -25,7 +25,8 @@ import inspect
 # Apply nest_asyncio to solve event loop issues
 nest_asyncio.apply()
 
-DEFAULT_RAG_DIR = "/home/technoidentity/Desktop/poc"
+# DEFAULT_RAG_DIR = "/home/technoidentity/Desktop/poc"
+DEFAULT_RAG_DIR = "/home/technoidentity/Desktop/thinkpython2"
 app = FastAPI(title="LightRAG API", description="API for RAG operations")
 
 # DEFAULT_INPUT_FILE = "book.txt"
@@ -64,8 +65,8 @@ rag = LightRAG(
     # vector_storage="MilvusVectorDBStorge",
 )
 
-# with open("/home/technoidentity/Desktop/csr.txt", "r", encoding="utf-8") as f:
-#     rag.insert(f.read())
+with open("/home/technoidentity/Desktop/thinkpython2/thinkpython2.md", "r", encoding="utf-8") as f:
+    rag.insert(f.read())
 
 # Data models
 class QueryRequest(BaseModel):

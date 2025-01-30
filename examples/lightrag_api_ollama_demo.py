@@ -10,23 +10,26 @@ import nest_asyncio
 import aiofiles
 import inspect
 # # neo4j
-# BATCH_SIZE_NODES = 500
-# BATCH_SIZE_EDGES = 100
-# os.environ["NEO4J_URI"] = "bolt://localhost:7687"
-# os.environ["NEO4J_USERNAME"] = "neo4j"
-# os.environ["NEO4J_PASSWORD"] = "password"
+BATCH_SIZE_NODES = 500
+BATCH_SIZE_EDGES = 100
+os.environ["NEO4J_URI"] = "neo4j+s://5cc548f5.databases.neo4j.io"
+os.environ["NEO4J_USERNAME"] = "neo4j"
+os.environ["NEO4J_PASSWORD"] = "xg0uKiI6sOgwAWALIwRM2xu9ctTDNLb1tBGdjvCqut8"
 
 # # milvus
-# os.environ["MILVUS_URI"] = "http://127.0.0.1:19530"
-# os.environ["MILVUS_USER"] = "root"
-# os.environ["MILVUS_PASSWORD"] = "root"
-# os.environ["MILVUS_DB_NAME"] = "lightrag"
+os.environ["MILVUS_URI"] = "https://in03-0188093ded1ad88.serverless.gcp-us-west1.cloud.zilliz.com"
+os.environ["MILVUS_USER"] = "db_0188093ded1ad88"
+os.environ["MILVUS_PASSWORD"] = "Yp6(hN{,]/,LJXJ8"
+os.environ["MILVUS_DB_NAME"] = "lightrag"
 
+#mongo
+os.environ["MONGO_URI"] = "mongodb+srv://aceprimenum:G8ahSD5QZWa3ixJ7@cluster0.31xjj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+os.environ["MONGO_DATABASE"] = "lightrag"
 # Apply nest_asyncio to solve event loop issues
 nest_asyncio.apply()
 
 # DEFAULT_RAG_DIR = "/home/technoidentity/Desktop/poc"
-DEFAULT_RAG_DIR = "/home/technoidentity/Desktop/citations_csr_manual_phi"
+DEFAULT_RAG_DIR = "/home/technoidentity/Desktop/mongo_milvus_neo4j_phi4_14b_q8"
 app = FastAPI(title="LightRAG API", description="API for RAG operations")
 
 # DEFAULT_INPUT_FILE = "book.txt"
@@ -54,15 +57,15 @@ rag = LightRAG(
     llm_model_max_token_size=32768,
     llm_model_kwargs={"host": "http://183.82.7.112:9066/", "options": {"num_ctx": 32768}},
     embedding_func=EmbeddingFunc(
-        embedding_dim=768,
+        embedding_dim=1024,
         max_token_size=8192,
         func=lambda texts: ollama_embed(
-            texts=texts, embed_model="nomic-embed-text", host="http://183.82.7.112:9066/"
+            texts=texts, embed_model="bge-m3:latest", host="http://183.82.7.112:9066/"
         ),
-        
     ),
-    # graph_storage="Neo4JStorage",
-    # vector_storage="MilvusVectorDBStorge",
+    kv_storage="MongoKVStorage",
+    graph_storage="Neo4JStorage",
+    vector_storage="MilvusVectorDBStorge",
 )
 
 with open("/home/technoidentity/LightRAG/output.md", "r", encoding="utf-8") as f:

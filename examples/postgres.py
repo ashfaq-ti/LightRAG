@@ -9,24 +9,35 @@ import asyncio
 import nest_asyncio
 import aiofiles
 import inspect
+from lightrag.kg.postgres_impl import PostgreSQLDB
 # # neo4j
-# BATCH_SIZE_NODES = 500
-# BATCH_SIZE_EDGES = 100
-# os.environ["NEO4J_URI"] = "bolt://localhost:7687"
-# os.environ["NEO4J_USERNAME"] = "neo4j"
-# os.environ["NEO4J_PASSWORD"] = "password"
+BATCH_SIZE_NODES = 500
+BATCH_SIZE_EDGES = 100
+os.environ["NEO4J_URI"] = "bolt://localhost:7687"
+os.environ["NEO4J_USERNAME"] = "neo4j"
+os.environ["NEO4J_PASSWORD"] = "password"
 
-# # milvus
-# os.environ["MILVUS_URI"] = "http://127.0.0.1:19530"
-# os.environ["MILVUS_USER"] = "root"
-# os.environ["MILVUS_PASSWORD"] = "root"
-# os.environ["MILVUS_DB_NAME"] = "lightrag"
+# milvus
+os.environ["MILVUS_URI"] = "http://127.0.0.1:19530"
+os.environ["MILVUS_USER"] = "root"
+os.environ["MILVUS_PASSWORD"] = "root"
+os.environ["MILVUS_DB_NAME"] = "lightrag"
+
+postgres_db = PostgreSQLDB(
+    config={
+        "host": "0.0.0.0",
+        "port": 5432,
+        "user": "rag",
+        "password": "rag",
+        "database": "rag",
+    }
+)
+
 
 # Apply nest_asyncio to solve event loop issues
 nest_asyncio.apply()
 
-# DEFAULT_RAG_DIR = "/home/technoidentity/Desktop/poc"
-DEFAULT_RAG_DIR = "/home/technoidentity/Desktop/citations_csr_manual_phi"
+DEFAULT_RAG_DIR = "/home/technoidentity/Desktop/postgres_check"
 app = FastAPI(title="LightRAG API", description="API for RAG operations")
 
 # DEFAULT_INPUT_FILE = "book.txt"
@@ -45,28 +56,50 @@ print(f"WorkingDir: {WORKING_DIR}")
 if not os.path.exists(WORKING_DIR):
     os.mkdir(WORKING_DIR)
 
+async def main():
+    await postgres_db.initdb()
+    # Check if PostgreSQL DB tables exist, if not, tables will be created
+    await postgres_db.check_tables()
 
+asyncio.run(main())
+    
 rag = LightRAG(
-    working_dir=WORKING_DIR,
-    llm_model_func=ollama_model_complete,
-    llm_model_name="phi4:14b-q8_0",
-    llm_model_max_async=4,
-    llm_model_max_token_size=32768,
-    llm_model_kwargs={"host": "http://183.82.7.112:9066/", "options": {"num_ctx": 32768}},
-    embedding_func=EmbeddingFunc(
-        embedding_dim=768,
-        max_token_size=8192,
-        func=lambda texts: ollama_embed(
-            texts=texts, embed_model="nomic-embed-text", host="http://183.82.7.112:9066/"
-        ),
-        
+working_dir=WORKING_DIR,
+llm_model_func=ollama_model_complete,
+llm_model_name="phi4:14b-q8_0",
+llm_model_max_async=4,
+llm_model_max_token_size=32768,
+llm_model_kwargs={"host": "http://183.82.7.112:9066/", "options": {"num_ctx": 32768}},
+embedding_func=EmbeddingFunc(
+    embedding_dim=1024,
+    max_token_size=8192,
+    func=lambda texts: ollama_embed(
+        texts=texts, embed_model="bge-m3:latest", host="http://183.82.7.112:9066/"
     ),
-    # graph_storage="Neo4JStorage",
-    # vector_storage="MilvusVectorDBStorge",
+    
+),
+kv_storage="PGKVStorage",
+doc_status_storage="PGDocStatusStorage",
+# graph_storage="Neo4JStorage",
+vector_storage="MilvusVectorDBStorge",
 )
+rag.doc_status.db = postgres_db
+rag.full_docs.db = postgres_db
+rag.text_chunks.db = postgres_db
+rag.llm_response_cache.db = postgres_db
+rag.key_string_value_json_storage_cls.db = postgres_db
 
 with open("/home/technoidentity/LightRAG/output.md", "r", encoding="utf-8") as f:
     rag.insert(f.read())
+
+    
+    
+    
+    
+    
+    
+    
+
 
 # Data models
 class QueryRequest(BaseModel):

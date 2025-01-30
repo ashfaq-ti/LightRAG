@@ -1,0 +1,2653 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d4" for="edge" attr.name="description" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;KATY MANAGED LANES&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"Katy Managed Lanes is an initiative that makes underused High Occupancy Vehicle lanes available to Single Occupancy Vehicle drivers for a toll, providing predictable trips for IH 10 commuters."&lt;SEP&gt;"Managed lanes established through a partnership involving Harris County, TxDOT, FHWA, and METRO, offering toll options for Single Occupancy Vehicles (SOVs) and free access for High Occupancy Vehicles (HOVs) during designated hours."&lt;SEP&gt;"Specific toll lanes where additional discount policies do not apply to HCTRA EZ TAG customers."</data>
+      <data key="d2">chunk-c2e1604deb13a394d2a12fee77988020&lt;SEP&gt;chunk-474719a2f3fb6bad15cc5be98356c335&lt;SEP&gt;chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;DISABLED VETERAN LICENSE PLATE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A type of vehicle registration plate that qualifies eligible veterans for free tolls on Harris County toll roads."</data>
+      <data key="d2">chunk-ed477ce5de8f18d998ea2cbea69698af</data>
+    </node>
+    <node id="&quot;CREDIT CARD NUMBERS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Sensitive information used for payment processed through designated systems like RITE 2.0/triPOS."</data>
+      <data key="d2">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </node>
+    <node id="&quot;FINGERPRINT INVOICES SECTION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Section in the Open Items interface for fingerprint-related invoices."</data>
+      <data key="d2">chunk-06c63a82d989f192114e179782edcac5</data>
+    </node>
+    <node id="&quot;PURPLE HEART MEDAL LICENSE PLATE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A type of vehicle registration plate issued to Purple Heart medal recipients, qualifying them for the Veteran Discount Tolling Program."</data>
+      <data key="d2">chunk-ed477ce5de8f18d998ea2cbea69698af</data>
+    </node>
+    <node id="&quot;IH-45S AND IH-45N, US 59S AND US 59N, US 290&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"Corridors where the METRO HOT Lanes are implemented for managing traffic flow with HOV and SOV lane access based on occupancy and time."</data>
+      <data key="d2">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;CLASS MISMATCH ADJUSTMENT&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Reclassification of vehicles based on axle count discrepancies, affecting toll rates."</data>
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </node>
+    <node id="&quot;TOLL AUTHORITY&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The Toll Authority manages toll transactions and imposes fees such as the EIN Fee, overseeing financial adjustments related to toll payments."</data>
+      <data key="d2">chunk-ab413a9398713b9534c556f4387bf2aa</data>
+    </node>
+    <node id="&quot;TRANSACTION DATE FIELDS&quot;">
+      <data key="d0">"TECHNOLOGY/CONCEPT"</data>
+      <data key="d1">"Fields used to specify the date range for transactions during account adjustments."</data>
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </node>
+    <node id="&quot;EIN FEE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"An administrative fee related to establishing an EZTAG account, often added to the total bill."&lt;SEP&gt;"The EIN Fee is a specific charge applied to transactions managed by the organization handling tolls, reflecting an operational or administrative cost."</data>
+      <data key="d2">chunk-ab413a9398713b9534c556f4387bf2aa&lt;SEP&gt;chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </node>
+    <node id="&quot;CSRS (CUSTOMER SERVICE REPRESENTATIVES)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"CSRs are responsible for searching and managing EZ TAG Accounts using specific criteria and tools."</data>
+      <data key="d2">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </node>
+    <node id="&quot;TOTAL AMOUNT ADJUSTED&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Represents financial adjustments made in response to toll-related activities, indicating changes such as reductions or credits applied."</data>
+      <data key="d2">chunk-ab413a9398713b9534c556f4387bf2aa</data>
+    </node>
+    <node id="&quot;ACCOUNT MANAGEMENT&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Account Management involves expanding into Account Maintenance and Account Actions, providing tools for managing account details and customer interactions."</data>
+      <data key="d2">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </node>
+    <node id="&quot;REMAINING BALANCE DUE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The Remaining Balance Due reflects the total amount owed after accounting for tolls and fees, highlighting the user's obligation following adjustments."</data>
+      <data key="d2">chunk-ab413a9398713b9534c556f4387bf2aa</data>
+    </node>
+    <node id="&quot;TOLL RATE OVERCHARGE ADJUSTMENT&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Correction made when a customer is erroneously charged a higher rate (e.g., cash vs. tag)."</data>
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </node>
+    <node id="&quot;POP-UP WINDOW&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"An interactive interface element prompting user decisions, in this context confirming submission of transaction data."</data>
+      <data key="d2">chunk-ab413a9398713b9534c556f4387bf2aa</data>
+    </node>
+    <node id="&quot;IOP TOLL CREDITS&quot;">
+      <data key="d0">"EVENT/CATEGORY"</data>
+      <data key="d1">"Credits applied for Ineligible Pay-As-You-Go (IOP) toll transactions, either fully or partially."</data>
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </node>
+    <node id="&quot;EZ TAG&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A device or system used for managing toll payments. It offers features like Tagless access for new orders and an EZ Plate option for temporary vehicles, with discounts available for specific vehicle classes."&lt;SEP&gt;"A type of account for managing toll payments and vehicle registration details."&lt;SEP&gt;"An electronic toll collection system used by drivers on HCTRA roads to facilitate seamless travel without stopping at toll booths."&lt;SEP&gt;"An electronic toll collection system used in certain lanes of the Katy Managed Lanes for toll payments."&lt;SEP&gt;"EZ TAG is an organization that manages toll tags and accounts, providing services such as refunds, account status changes, and vehicle management."</data>
+      <data key="d2">chunk-42d1aecb9e99b337c4fa6b12891be5bc&lt;SEP&gt;chunk-bde8b434df7ef06fb90109d54ba1c320&lt;SEP&gt;chunk-bbe78f44e95095ef3b0095bb2d3477f4&lt;SEP&gt;chunk-474719a2f3fb6bad15cc5be98356c335&lt;SEP&gt;chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;CALL CENTER&quot;">
+      <data key="d0">"LOCATION/DEPARTMENT"</data>
+      <data key="d1">"A department within HCTRA that provides customer assistance via telephone, operating from 7:00 am to 7:00 pm on weekdays and with reduced hours on Saturdays."</data>
+      <data key="d2">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+    </node>
+    <node id="&quot;LICENSE PLATE STATE&quot;">
+      <data key="d0">"CATEGORY/GEO"</data>
+      <data key="d1">"The state designation of a vehicle's license plate, important for jurisdictional verification."</data>
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </node>
+    <node id="&quot;EZ PLATE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A temporary vehicle addition option under an EZ TAG account with specific rules such as non-discounted rates and a maximum of three vehicles at a time."</data>
+      <data key="d2">chunk-474719a2f3fb6bad15cc5be98356c335</data>
+    </node>
+    <node id="&quot;ACCOUNT MAINTENANCE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Account Maintenance provides information about payments, receipts, toll transactions, and notifications associated with an account."</data>
+      <data key="d2">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </node>
+    <node id="&quot;QA&amp;T&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"QA&amp;T refers to Quality Assurance and Training, responsible for scheduling the courses on LearningZen."</data>
+      <data key="d2">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </node>
+    <node id="&quot;DAY IN THE LIFE ORIENTATION TRAINING&quot;">
+      <data key="d0">"TRAINING PHASE"</data>
+      <data key="d1">"The initial one-day training session for new hires focusing on familiarizing them with daily job expectations at HCTRA."</data>
+      <data key="d2">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+    </node>
+    <node id="&quot;FEE REDUCTION PROGRAM DETAILS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Specifics of the fee reduction program, including eligibility and conditions effective from September 4, 2023."</data>
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </node>
+    <node id="&quot;METRO HOT LANES&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A public transit system launched by Houston's METRO in February 2012 featuring HOV tolling lanes."</data>
+      <data key="d2">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;CUSTOMER DOCUMENTATION REQUIREMENTS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The types of documents required from customers for processes like account holder name changes, such as driver's licenses or passports."</data>
+      <data key="d2">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </node>
+    <node id="&quot;DETAILED REASON FOR ADJUSTMENT&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Specifies the detailed explanation provided during adjustments in account management."</data>
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </node>
+    <node id="&quot;CREDIT CARDS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Financial instruments affected by decline codes categorized as 'Prevented' within HCTRA’s RITE system."</data>
+      <data key="d2">chunk-868a3d8c433896779318c3021994640e</data>
+    </node>
+    <node id="&quot;HCTRA (HARRIS COUNTY TOLL ROAD AUTHORITY)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"A transportation authority managing toll roads in Harris County, implementing systems like RITE and IVR for payment processing and customer service."</data>
+      <data key="d2">chunk-868a3d8c433896779318c3021994640e</data>
+    </node>
+    <node id="&quot;TRANSACTION AUTHORITY&quot;">
+      <data key="d0">"ORGANIZATION/CONCEPT"</data>
+      <data key="d1">"The authority managing or overseeing a transaction, relevant to toll operations and violations."</data>
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </node>
+    <node id="&quot;EXCUSAL SCREEN&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A part of the HCTRA's invoicing system interface where users can select adjustment types and reasons for invoices."</data>
+      <data key="d2">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </node>
+    <node id="&quot;SAM HOUSTON TOLLWAY&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"The Sam Houston Tollway is undergoing an All Electronic Tolling (AET) conversion to remove toll plazas and implement overhead electronic tolling equipment, aiming for a faster and safer commute."</data>
+      <data key="d2">chunk-c2e1604deb13a394d2a12fee77988020</data>
+    </node>
+    <node id="&quot;TOLL CREDITS&quot;">
+      <data key="d0">"CATEGORY/EVENT"</data>
+      <data key="d1">"Adjustments made to toll charges due to various reasons such as DMV errors or emergency vehicle status."</data>
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </node>
+    <node id="&quot;DISCOUNT REASON&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Various reasons available in HCTRA's system for applying discounts to invoices, such as Corrective Action Taken or Discretionary Adjustment."</data>
+      <data key="d2">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </node>
+    <node id="&quot;HARRIS COUNTY (GEO)&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"The geographical area where HCTRA operates, serving the connectivity needs of its residents through toll roads."</data>
+      <data key="d2">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+    </node>
+    <node id="&quot;ACCOUNT ALERTS&quot;">
+      <data key="d0">"EVENT/CONCEPT"</data>
+      <data key="d1">"Notifications or warnings about account status changes, including potential negative balances."</data>
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </node>
+    <node id="&quot;EZ-TAG CONVERSION&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A process and adjustment step in the HCTRA system related to converting toll payment methods to EZ-Tag."</data>
+      <data key="d2">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </node>
+    <node id="&quot;NON-TAG TRAFFIC LANES&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"These lanes are designated for drivers without EZ TAGs on HCTRA roads. Non-tag customers must pay tolls online or in-person using their license plate number to avoid additional fees."</data>
+      <data key="d2">chunk-c2e1604deb13a394d2a12fee77988020</data>
+    </node>
+    <node id="&quot;VETERAN DISCOUNT TOLLING PROGRAM&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A program initiated by HCTRA to offer free tolls on Harris County toll roads to eligible veterans since December 18, 2009."</data>
+      <data key="d2">chunk-ed477ce5de8f18d998ea2cbea69698af</data>
+    </node>
+    <node id="&quot;NEW ACCOUNT SETUP WIZARD&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"An interface tool used for setting up new accounts, specifically selecting 'EZ TAG' as an account plan."</data>
+      <data key="d2">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </node>
+    <node id="&quot;TOLL TRANSACTION LOCATION&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"This specifies the geographical location where a toll transaction took place, relevant for jurisdiction and fee calculation."</data>
+      <data key="d2">chunk-7e437ef662863633c256e063daca0800</data>
+    </node>
+    <node id="&quot;ACCOUNT HOLDER NAME CHANGE PROCESS&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A procedure requiring documentation to change the name associated with an EZ TAG account due to various circumstances like death or legal authority delegation."</data>
+      <data key="d2">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </node>
+    <node id="&quot;TEXAS DEPARTMENT OF MOTOR VEHICLES (TXDMV)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The TxDMV issues qualifying specialty license plates required for veterans to access the Veteran Discount Tolling Program."</data>
+      <data key="d2">chunk-ed477ce5de8f18d998ea2cbea69698af</data>
+    </node>
+    <node id="&quot;LEARNINGZEN ONLINE TRAINING PLATFORM&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"An online training platform offering courses to HCTRA employees, accessed via company systems."</data>
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </node>
+    <node id="&quot;NEW VEHICLE ADDITION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The process of adding a new vehicle to an EZ TAG account, which involves several verification steps including checking for violations and ensuring sufficient funds."</data>
+      <data key="d2">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </node>
+    <node id="&quot;BILL OF SALE&quot;">
+      <data key="d0">"DOCUMENT"</data>
+      <data key="d1">"A Bill of Sale with signatures from both parties serves as necessary documentation for proving the sale or transfer of a vehicle."</data>
+      <data key="d2">chunk-61f9e69d863aaeb9fea37638aba8c3fb</data>
+    </node>
+    <node id="&quot;BUILDING SECURITY MEASURES&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Security protocols including badge visibility and controlled access to prevent unauthorized entry into secure areas."</data>
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </node>
+    <node id="&quot;BLUERIDGE TRANSPORTATION GROUP (BTG)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Partnership organization managing the north side of the SH-288 Express Toll Lanes project with TX DOT."</data>
+      <data key="d2">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;TITLE&quot;">
+      <data key="d0">"DOCUMENT"</data>
+      <data key="d1">"The Title is required documentation indicating legal ownership and helping resolve disputes regarding vehicle violations."</data>
+      <data key="d2">chunk-61f9e69d863aaeb9fea37638aba8c3fb</data>
+    </node>
+    <node id="&quot;FORT BEND PARKWAY EXTENSION&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"This extension runs from US 90A in Harris County to the Fort Bend County line, functioning as an EZ TAG only toll road with one plaza."</data>
+      <data key="d2">chunk-c2e1604deb13a394d2a12fee77988020</data>
+    </node>
+    <node id="&quot;TOLL TRANSACTION DATE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"This refers to the date on which a toll transaction occurred. It's crucial for determining due dates and processing payments."</data>
+      <data key="d2">chunk-7e437ef662863633c256e063daca0800</data>
+    </node>
+    <node id="&quot;CUSTOMER SERVICE MANUAL&quot;">
+      <data key="d0">"DOCUMENT"</data>
+      <data key="d1">"A manual providing guidelines and information related to HCTRA’s customer service operations, updated as needed by CSC Management."</data>
+      <data key="d2">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+    </node>
+    <node id="&quot;STOREFRONT PROCEDURE&quot;">
+      <data key="d0">"PROCEDURE"</data>
+      <data key="d1">"The procedure followed at storefront locations to ensure customers provide proper documentation and verify its legibility."</data>
+      <data key="d2">chunk-61f9e69d863aaeb9fea37638aba8c3fb</data>
+    </node>
+    <node id="&quot;HCTRANET WEBSITE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"An internal website serving as an employee resource platform for HCTRA, offering various features like calendars and policy documents."</data>
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </node>
+    <node id="&quot;STOREFRONT&quot;">
+      <data key="d0">"LOCATION/DEPARTMENT"</data>
+      <data key="d1">"A physical location where customers can receive in-person assistance for their inquiries or issues related to HCTRA services."</data>
+      <data key="d2">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+    </node>
+    <node id="&quot;EZ TAG STORE LOCATIONS&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"Physical store locations where EZ TAG accounts can be managed, including cash payments for account maintenance."</data>
+      <data key="d2">chunk-61f9e69d863aaeb9fea37638aba8c3fb</data>
+    </node>
+    <node id="&quot;HCTRA.ORG EXTERNAL CUSTOMER WEBSITE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A customer-facing website providing resources for account management and toll road information."</data>
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </node>
+    <node id="&quot;EZ TAG ACCOUNTS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Accounts managed through HCTRA's systems, involving features like balance inquiries and payment processing. Customers may verify these accounts via phone or online portals."</data>
+      <data key="d2">chunk-868a3d8c433896779318c3021994640e</data>
+    </node>
+    <node id="&quot;QUICK START EZ TAG INSTALLATION INSTRUCTIONS&quot;">
+      <data key="d0">"DOCUMENT"</data>
+      <data key="d1">"Instructions provided to customers on how to install EZ TAGs correctly to ensure proper functionality."</data>
+      <data key="d2">chunk-61f9e69d863aaeb9fea37638aba8c3fb</data>
+    </node>
+    <node id="&quot;HARRIS COUNTY FACILITIES&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Harris County facilities are locations where smoking is banned, including for employees using smokeless tobacco and e-cigarettes."</data>
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </node>
+    <node id="&quot;MAIL DATE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The Mail Date is when the toll violation invoice is sent to the vehicle owner, marking the start of the payment period."</data>
+      <data key="d2">chunk-7e437ef662863633c256e063daca0800</data>
+    </node>
+    <node id="&quot;SOV (SINGLE OCCUPANCY VEHICLE)&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"SOV refers to vehicles with a single occupant; these drivers may use the managed lanes by paying a toll."</data>
+      <data key="d2">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;LARGE EZ TAG ACCOUNT&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"An account type for customers with 20 or more active vehicles under a single EZ TAG account, which may include corporate, invoiced, or fleet types."</data>
+      <data key="d2">chunk-ed477ce5de8f18d998ea2cbea69698af</data>
+    </node>
+    <node id="&quot;HITE 2.0 SYSTEM&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"RITE 2.0 is a technology used by HCTRA to manage EZ TAG accounts and toll violations."</data>
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </node>
+    <node id="&quot;COUNTY FINE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A County Fine is an additional charge applied per transaction on Toll Violation Invoices starting March 1, 2021, unless paid within the specified grace period."&lt;SEP&gt;"The County Fine is $1.00 per transaction for TVZ invoices and applies after 31 days from the Mail Date."</data>
+      <data key="d2">chunk-7e437ef662863633c256e063daca0800&lt;SEP&gt;chunk-613936b1c07669b324a719f22b1b3988</data>
+    </node>
+    <node id="&quot;IH 10&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Interstate Highway 10 is a major east-west highway in the United States, serving as a commuting route for Katy Managed Lanes users."</data>
+      <data key="d2">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;CALL CENTER CSRS&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Call Center Customer Service Representatives are tasked with managing customer inquiries regarding vehicle violations not in possession of the customer, instructing them on documentation submission."</data>
+      <data key="d2">chunk-61f9e69d863aaeb9fea37638aba8c3fb</data>
+    </node>
+    <node id="&quot;EMERGENCY PHONE CALLS&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Emergency calls have specific procedures under HCTRA's cell phone policy for contacting supervisors."</data>
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </node>
+    <node id="&quot;EZ TAG, TX TAG, NTTA TOLL TAG&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Electronic toll collection systems used across various toll roads in Texas, including State Highway 99, to facilitate transactions."</data>
+      <data key="d2">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;E-FAX&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"E-FAX (713-437-4147) is a fax service used by customers to submit proper documentation for vehicle violation disputes."</data>
+      <data key="d2">chunk-61f9e69d863aaeb9fea37638aba8c3fb</data>
+    </node>
+    <node id="&quot;PERSONAL CELL PHONE POLICY&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"This policy outlines restrictions on personal cell phone usage during work to ensure focus and compliance with workplace standards."</data>
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </node>
+    <node id="&quot;US 59S AND US 59N&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"Sections of U.S. Route 59 that are part of the METRO HOT Lanes system, providing managed lanes for traffic flow management."</data>
+      <data key="d2">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;TEXAS MOTOR VEHICLE TRANSFER&quot;">
+      <data key="d0">"DOCUMENT"</data>
+      <data key="d1">"The Texas Motor Vehicle Transfer form is required documentation to prove the transfer of vehicle possession, aiding in the dismissal of violations."</data>
+      <data key="d2">chunk-61f9e69d863aaeb9fea37638aba8c3fb</data>
+    </node>
+    <node id="&quot;SMOKING BAN IN FACILITIES&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A comprehensive ban on smoking, including e-cigarettes, across all HCTRA facilities to maintain a smoke-free environment."</data>
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </node>
+    <node id="&quot;STATE HIGHWAY 99 (GRAND PARKWAY)&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"A Texas highway serving as the longest beltway in the U.S. upon completion; consists of multiple segments for construction and funding."</data>
+      <data key="d2">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;EGO&quot;">
+      <data key="d0">"PRODUCT"</data>
+      <data key="d1">"The EGO tag is a type of RFID transponder used by HCTRA for EZ TAG services, available in various forms such as REGULAR and MOTORCYCLE."</data>
+      <data key="d2">chunk-61f9e69d863aaeb9fea37638aba8c3fb</data>
+    </node>
+    <node id="&quot;EZ TAG APP&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A mobile application allowing traditional EZ TAG account holders to manage their accounts, including viewing balances and managing vehicles."</data>
+      <data key="d2">chunk-474719a2f3fb6bad15cc5be98356c335</data>
+    </node>
+    <node id="&quot;HIGHWAY 6 AND 610 PARK-N-RIDE&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"The Katy Managed Lanes range from Highway 6 to 610 Park-n-Ride location."</data>
+      <data key="d2">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;HCTRA (HIGH-OCCUPANCY/TOLL RATE AUTHORITY)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"HCTRA is responsible for sending automated notices to customers via selected notification preferences, managing monthly statements, and billing."</data>
+      <data key="d2">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </node>
+    <node id="&quot;FARMERS BRANCH&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"A city serviced by the North Texas Tollway Authority's expressway system."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;HOV (HIGH OCCUPANCY VEHICLE) LANES&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"HOV lanes are designated for vehicles with multiple occupants and can be used free of charge by carpoolers during specified hours in Katy Managed Lanes."</data>
+      <data key="d2">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;HOV DRIVERS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Drivers of high-occupancy vehicles who receive free tolls within the METRO HOT Lanes system."</data>
+      <data key="d2">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;AUTOMATED NOTICES&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Automated notices are sent by HCTRA to customers based on their chosen notification preference, including updates on account changes, payments, and statements."</data>
+      <data key="d2">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </node>
+    <node id="&quot;WESTPARK TOLLWAY&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"The Westpark Tollway is an EZ TAG only toll road owned by Harris and Fort Bend Counties. It runs east-west from the 610 Loop to Grand Parkway 99 and serves commuters in or near Mission Bend and Cinco Ranch."</data>
+      <data key="d2">chunk-c2e1604deb13a394d2a12fee77988020</data>
+    </node>
+    <node id="&quot;HOV HOURS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Specific time periods during which HOV lanes can be used free by carpoolers; important for planning commute times to utilize toll-free access on managed lanes."</data>
+      <data key="d2">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;MONTHLY STATEMENTS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Monthly Statements allow CSRs to provide customers with account summaries each month, along with yearly summaries if needed. They can also be accessed online by the customer for up to 18 months."</data>
+      <data key="d2">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </node>
+    <node id="&quot;EZ TAG ACCOUNT STATUS CHANGE REQUEST&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A formal process for customers to request changes in their EZ TAG account status, requiring specific documentation."</data>
+      <data key="d2">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </node>
+    <node id="&quot;DUE DATE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The Due Date indicates the final day by which a toll transaction must be paid before additional fees are applied."&lt;SEP&gt;"The Due Date indicates when payment is expected on an invoice, relevant for adjustment decisions if both Mail and Due Dates are 'To Be Mailed'."</data>
+      <data key="d2">chunk-7e437ef662863633c256e063daca0800&lt;SEP&gt;chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </node>
+    <node id="&quot;EXCUSE WINDOW&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"An interface component where users can provide reasons for fee reduction requests during the transaction process."</data>
+      <data key="d2">chunk-ab413a9398713b9534c556f4387bf2aa</data>
+    </node>
+    <node id="&quot;BACK OFFICE SERVICES (BOS)&quot;">
+      <data key="d0">"DEPARTMENT"</data>
+      <data key="d1">"The department responsible for assisting customers via email, managing large account calls, and handling EZ TAG distribution."</data>
+      <data key="d2">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+    </node>
+    <node id="&quot;COMMENTS&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Comments are used within Rite 2.0 to document customer interactions, detailing reasons for calls or visits and resolutions."</data>
+      <data key="d2">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </node>
+    <node id="&quot;TEXAS TOLLWAYS&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Texas Tollways is responsible for processing violations through the Texas Tollways violations process for vehicles not using an active toll tag."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;QUALITY ASSURANCE AND TRAINING STAFF&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The team supervising new hires during practical training sessions, ensuring they receive live calls or assist walk-in customers effectively."</data>
+      <data key="d2">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </node>
+    <node id="&quot;SKIP TRACING VENDOR&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The vendor tasked with locating better addresses for returned invoices marked as bad addresses."</data>
+      <data key="d2">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+    </node>
+    <node id="&quot;VIOLATION ACCOUNTS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"HCTRA accounts associated with traffic violations requiring additional verification steps such as vehicle information and contact details."</data>
+      <data key="d2">chunk-868a3d8c433896779318c3021994640e</data>
+    </node>
+    <node id="&quot;NOTIFICATION PREFERENCES&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Notification Preferences determine how HCTRA communicates with customers, using email or USPS letters but not text notifications."</data>
+      <data key="d2">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </node>
+    <node id="&quot;EZ INVOICES SECTION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A section in the Open Items interface for EZ invoices."</data>
+      <data key="d2">chunk-06c63a82d989f192114e179782edcac5</data>
+    </node>
+    <node id="&quot;FINGERPRINT INVOICE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A Fingerprint Invoice is issued to vehicle owners with obstructed plates who have committed violations, aiding in identification and enforcement."</data>
+      <data key="d2">chunk-7e437ef662863633c256e063daca0800</data>
+    </node>
+    <node id="&quot;EXCUSAL TYPE AND REASON&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Refers to the classification used in HCTRA's system for adjusting invoices, specifically under ADJUSTMENTS."</data>
+      <data key="d2">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </node>
+    <node id="&quot;IVR (INTERACTIVE VOICE RECOGNITION)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"An advanced system implemented by HCTRA to enhance customer experience through automated services like account verification, balance inquiries, payment processing, and information dissemination. It also facilitates transfer to a CSR for issues beyond its capacity."</data>
+      <data key="d2">chunk-868a3d8c433896779318c3021994640e</data>
+    </node>
+    <node id="&quot;CONGRESSIONAL MEDAL OF HONOR LICENSE PLATE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A license plate issued to Congressional Medal of Honor recipients, granting free tolls under the Veteran Discount Tolling Program."</data>
+      <data key="d2">chunk-ed477ce5de8f18d998ea2cbea69698af</data>
+    </node>
+    <node id="&quot;PLANO&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Part of the corridor served by the NTTA, facilitating local and regional travel."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;EZ TAG RATE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The EZ Tag Rate is the standard toll rate for vehicles using an electronic toll collection system. It's used as a base to calculate fines and fees."</data>
+      <data key="d2">chunk-7e437ef662863633c256e063daca0800</data>
+    </node>
+    <node id="&quot;ADMINISTRATIVE FEE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A fee component of a violation invoice that can be adjusted, along with Collection Fee and County Attorney Fee."</data>
+      <data key="d2">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </node>
+    <node id="&quot;NEW HIRE TRAINING OVERVIEW&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A structured training program for new employees at HCTRA to equip them with necessary skills and knowledge for their roles in customer service."</data>
+      <data key="d2">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+    </node>
+    <node id="&quot;LEGION OF VALOR LICENSE PLATE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Issued since September 1, 2013, this license plate qualifies owners for free tolls on Harris County roads as part of the Veteran Discount Tolling Program."</data>
+      <data key="d2">chunk-ed477ce5de8f18d998ea2cbea69698af</data>
+    </node>
+    <node id="&quot;FEE REDUCTION PROGRAM&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A program that allows users to request reductions in fees, potentially lowering costs associated with toll transactions."</data>
+      <data key="d2">chunk-ab413a9398713b9534c556f4387bf2aa</data>
+    </node>
+    <node id="&quot;RITE 2.0&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"RITE 2.0 is a system where Call Center CSRs enter notes describing customer encounters regarding vehicle violations and EZ TAG procedures."&lt;SEP&gt;"RITE 2.0 is the system used by HCTRA CSRs for managing customer interactions, including entering notes about vehicle ownership and handling disputes."&lt;SEP&gt;"RITE 2.0 is the technology platform used by HCTRA to manage toll transactions, invoicing, and enforcement actions electronically."&lt;SEP&gt;"Rite 2.0 is a system or platform used by CSRs to manage accounts, requiring users to log out for security during breaks."</data>
+      <data key="d2">chunk-e17dcdcb044d200c5999a3b83a079fad&lt;SEP&gt;chunk-7e437ef662863633c256e063daca0800&lt;SEP&gt;chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b&lt;SEP&gt;chunk-61f9e69d863aaeb9fea37638aba8c3fb</data>
+    </node>
+    <node id="&quot;OPEN ITEMS SCREEN&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A screen or view that displays pending transactions or actions required to complete a toll payment cycle."</data>
+      <data key="d2">chunk-ab413a9398713b9534c556f4387bf2aa</data>
+    </node>
+    <node id="&quot;FIRST FIVE ACTIVE VEHICLES&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Refers to the priority of checking these vehicles for toll violations within any given EZ TAG account."</data>
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </node>
+    <node id="&quot;RITA 2.0 (ROAD INFORMATION TECHNOLOGY APPLICATION)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A system used by Harris County Toll Road Authority customer service representatives to assist customers, access accounts, and manage account types."</data>
+      <data key="d2">chunk-ed477ce5de8f18d998ea2cbea69698af</data>
+    </node>
+    <node id="&quot;COLLECTION FEE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A fee component of a violation invoice subject to adjustment in HCTRA's system."&lt;SEP&gt;"The Collection Fee is applied per transaction or invoice and varies depending on the type of invoice (TVI, TVZ, EZ)."</data>
+      <data key="d2">chunk-613936b1c07669b324a719f22b1b3988&lt;SEP&gt;chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </node>
+    <node id="&quot;HARRIS COUNTY TOLL ROAD AUTHORITY (HCTRA)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"An organization responsible for managing toll roads and issuing toll violation invoices in Harris County, Texas."&lt;SEP&gt;"HCTRA is responsible for operating and maintaining a mobility system in Harris County, focusing on safety, reliability, sustainability, and evolution to meet connectivity needs."&lt;SEP&gt;"The HCTRA provides toll road services in Harris County and implements programs like the Veteran Discount Tolling Program for eligible veterans."&lt;SEP&gt;"The Harris County Toll Road Authority is an organization providing toll road services and requires its employees to undergo training for customer service proficiency."</data>
+      <data key="d2">chunk-ee1ef57a1ea0e469d20630b343cde71a&lt;SEP&gt;chunk-ed477ce5de8f18d998ea2cbea69698af&lt;SEP&gt;chunk-42d1aecb9e99b337c4fa6b12891be5bc&lt;SEP&gt;chunk-f4c9959d627ab1b30cb8d750c2980041</data>
+    </node>
+    <node id="&quot;LEAD/SUPERVISOR&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"A Lead or Supervisor is responsible for completing documentation processes after receiving proper documents from the customer."&lt;SEP&gt;"Roles within the HCTRA responsible for escalating qualifying veterans to receive a Toll Declaration Form and manage certain customer interactions."</data>
+      <data key="d2">chunk-ed477ce5de8f18d998ea2cbea69698af&lt;SEP&gt;chunk-61f9e69d863aaeb9fea37638aba8c3fb</data>
+    </node>
+    <node id="&quot;VIOLATION CHECKS&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Violation Checks are procedures to ensure compliance with traffic regulations when managing EZ TAG accounts."</data>
+      <data key="d2">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </node>
+    <node id="&quot;TRAINING CENTER&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"A location where all new hires must report for classroom hours and receive various aspects of their job training, including Customer Service."</data>
+      <data key="d2">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </node>
+    <node id="&quot;HARDY TOLL ROAD&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"The Hardy Toll Road is an EZ TAG only toll road that was established by HCTRA and features the Airport Connector. It runs north-south and is located east of I-45 North, catering to commuters from Spring, The Woodlands, and Conroe."</data>
+      <data key="d2">chunk-c2e1604deb13a394d2a12fee77988020</data>
+    </node>
+    <node id="&quot;RFID (RADIO FREQUENCY IDENTIFICATION)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A technology used in transponders for toll payment systems, specifically mentioned as part of the HCTRA EZ TAG system."</data>
+      <data key="d2">chunk-61f9e69d863aaeb9fea37638aba8c3fb</data>
+    </node>
+    <node id="&quot;FRISCO&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"End point in the Dallas/Fort Worth area on the NTTA expressway."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;NEW HIRE TRAINING MANUAL &amp; HANDOUTS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Materials provided to trainees containing information and procedures necessary for effective performance in customer service roles at HCTRA."</data>
+      <data key="d2">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </node>
+    <node id="&quot;DRIVER'S LICENSE NUMBER&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Identification number not required by HCTRA as of 5/7/22, enhancing security measures."</data>
+      <data key="d2">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </node>
+    <node id="&quot;AIRPORT CONNECTOR&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"The Airport Connector is a part of the Hardy Toll Road that links directly to George Bush Intercontinental Airport."</data>
+      <data key="d2">chunk-c2e1604deb13a394d2a12fee77988020</data>
+    </node>
+    <node id="&quot;BILLING PREFERENCES&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Billing Preferences screen displays the billing methods available to customers and ensures that primary payment methods are set for future auto-charges."</data>
+      <data key="d2">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </node>
+    <node id="&quot;NORTHEAST TEXAS REGIONAL MOBILITY AUTHORITY (NTRMA)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Manages multiple transportation projects in Tyler area, including toll roads and expansions."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;713-587-7732&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"The phone number provided for attendance communication during training."</data>
+      <data key="d2">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </node>
+    <node id="&quot;INTEROPERABLE CUSTOMERS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Customers using tags from other tolling agencies that are compatible with the HCTRA system but ineligible for certain discounts."</data>
+      <data key="d2">chunk-474719a2f3fb6bad15cc5be98356c335</data>
+    </node>
+    <node id="&quot;NEGATIVE BALANCE STATUS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Negative Balance Status indicates accounts that owe money and cannot be closed until the outstanding balance is paid."</data>
+      <data key="d2">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </node>
+    <node id="&quot;SPECIAL RATE CLASS ASSOCIATION&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"This feature allows CSRs to view active vehicles, associated transponders, and Disabled Veteran class associations on one page."</data>
+      <data key="d2">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </node>
+    <node id="&quot;INVOICE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"An Invoice in this context refers to a document generated by HCTRA indicating charges due for violations or services. Specific types include To Be Mailed Invoices, Future Dated Invoicing, Delayed Invoice, and Continuation Fee Reduction."</data>
+      <data key="d2">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </node>
+    <node id="&quot;DRIVER'S LICENSE OR ID&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Required personal identification document that employees must bring to the training center."</data>
+      <data key="d2">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </node>
+    <node id="&quot;UNIVERSITY PARK&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Another city along the Dallas/Fort Worth expressway, enhancing regional access."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;TEXAS TRANSPORTATION CODE 284&quot;">
+      <data key="d0">"LEGISLATION"</data>
+      <data key="d1">"Legal code outlining offenses related to nonpayment of tolls on county projects in Texas."</data>
+      <data key="d2">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </node>
+    <node id="&quot;TOMBALL TOLLWAY&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"The Tomball Tollway is an EZ TAG only toll road shared with TX TAG, running on Highway 249 between Spring Cypress Road and FM 2920, and serving areas like Magnolia and Tomball. It has a single Mainlane called North Pointe."</data>
+      <data key="d2">chunk-c2e1604deb13a394d2a12fee77988020</data>
+    </node>
+    <node id="&quot;VIEW CART (CART SUMMARY)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Allows payments to be made directly on the account balance through Rite 2.0, with options for adding payments or rebilling."</data>
+      <data key="d2">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </node>
+    <node id="&quot;DELAYED INVOICE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A delayed invoice refers to one where no violation event occurred within 30 days prior to the mailing date. Such invoices qualify for a 100% adjustment if confirmed as delayed."</data>
+      <data key="d2">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </node>
+    <node id="&quot;EARBUDS OR HEADPHONES&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Devices needed by trainees for accessing computer-based training materials."</data>
+      <data key="d2">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </node>
+    <node id="&quot;IVIS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"System used by HCTRA to verify EZ TAG information and determine vehicle axle count for toll deduction."</data>
+      <data key="d2">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </node>
+    <node id="&quot;JOHN DOE&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"A representative example of a customer who interacts with the service to update credit card details and order an EZ Tag."</data>
+      <data key="d2">chunk-bbe78f44e95095ef3b0095bb2d3477f4</data>
+    </node>
+    <node id="&quot;VEHICLE/TRANSPONDER TRANSFER&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Enables transfer of vehicles and EZ TAGs between accounts, requiring verification and documentation for active transfers."</data>
+      <data key="d2">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </node>
+    <node id="&quot;TYLER OUTER LOOP&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"A nearly completed toll road providing efficient travel routes around Tyler, Texas."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;CLASSROOM ETIQUETTE RULES&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Guidelines set to ensure a conducive learning environment during training sessions, including respecting others and following instructions."</data>
+      <data key="d2">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </node>
+    <node id="&quot;EZ TAG ACCOUNT&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A type of account managed by HCTRA that can be linked to an individual's vehicle, offering various payment options and tolling functionalities."&lt;SEP&gt;"An account used for managing toll payments electronically via transponders on vehicles."&lt;SEP&gt;"EZ TAG Account is a type of account managed by CSRs, which includes features like search, setup, maintenance, and management via Rite 2.0."&lt;SEP&gt;"Prepaid account system used for automatic toll payments as vehicles pass through designated lanes."</data>
+      <data key="d2">chunk-e17dcdcb044d200c5999a3b83a079fad&lt;SEP&gt;chunk-ed477ce5de8f18d998ea2cbea69698af&lt;SEP&gt;chunk-cc58897cc3aac6e23122c6edc492e421&lt;SEP&gt;chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </node>
+    <node id="&quot;FLEX PAY ACCOUNT&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A type of account that allows customers flexible payment options such as opting in/out of auto-replenishment, similar to traditional EZ TAG Accounts but without requiring a mailing address."</data>
+      <data key="d2">chunk-bbe78f44e95095ef3b0095bb2d3477f4</data>
+    </node>
+    <node id="&quot;FULFILLMENT REQUEST&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Lists pending tag requests that have not yet been picked up or mailed out, allowing CSRs to manage delivery methods and process orders."</data>
+      <data key="d2">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </node>
+    <node id="&quot;FUTURE DATED INVOICING&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Occurs when an invoice's date is ahead of the current calendar date. These invoices are subject to a 100% adjustment upon determination."</data>
+      <data key="d2">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </node>
+    <node id="&quot;NOVATIME&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A system used by employees for clocking in and out of work shifts at HCTRA."</data>
+      <data key="d2">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </node>
+    <node id="&quot;DMV SEARCH&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"An activity used by CSRs to verify vehicle information, ownership details, and locate registered owners among other things."</data>
+      <data key="d2">chunk-bbe78f44e95095ef3b0095bb2d3477f4</data>
+    </node>
+    <node id="&quot;EZ TAG EXPRESS&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"EZ TAG Express is an account type that offers specific services and limitations such as auto-charging, mobile app management, and restrictions on personal information changes."</data>
+      <data key="d2">chunk-c8329b539fb119d1a84a86d45f0929c4</data>
+    </node>
+    <node id="&quot;NORTH TEXAS TOLLWAY AUTHORITY (NTTA)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Agency responsible for managing toll roads in North Texas, including those that are interoperable with EZ TAG systems."&lt;SEP&gt;"Operates a 32-mile expressway through Dallas/Fort Worth area cities, facilitating regional mobility."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d&lt;SEP&gt;chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;TRAINING MANUAL &amp; HANDOUTS&quot;">
+      <data key="d0">"DOCUMENT"</data>
+      <data key="d1">"Materials provided to trainees containing information and procedures necessary for effective performance in customer service roles at HCTRA."</data>
+      <data key="d2">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </node>
+    <node id="&quot;RITE SYSTEM&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"A system used by CSRs to manage customer accounts, including tracking suspicious activities and credit card usage."&lt;SEP&gt;"A system used by HCTRA to categorize and manage credit card decline codes as 'Prevented,' affecting transactions across their platforms such as CSC, website, and auto-charge."</data>
+      <data key="d2">chunk-868a3d8c433896779318c3021994640e&lt;SEP&gt;chunk-bbe78f44e95095ef3b0095bb2d3477f4</data>
+    </node>
+    <node id="&quot;BANCPASS&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"BancPass is a service allowing users to manage toll payments across Texas with features like phone app management and text balance reminders, not directly related to EZ TAG Express."</data>
+      <data key="d2">chunk-c8329b539fb119d1a84a86d45f0929c4</data>
+    </node>
+    <node id="&quot;CAMERON COUNTY REGIONAL MOBILITY AUTHORITY (CCRMA)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Authority managing the Brownsville SH 550 toll road, providing overpasses and enhancing regional mobility."&lt;SEP&gt;"Operates Brownsville SH 550, a toll road providing an overpass of Paredes Line Road FM1847 and a Union Pacific rail line in Cameron County."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d&lt;SEP&gt;chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;NESTING CHECKLIST&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A checklist used during the nesting phase of new hire training under supervision, ensuring coverage of all required tasks."</data>
+      <data key="d2">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </node>
+    <node id="&quot;FLEX PAY ACCOUNTS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Accounts that allow customers to opt in/out of auto-charge without requiring a mailing address."</data>
+      <data key="d2">chunk-bbe78f44e95095ef3b0095bb2d3477f4</data>
+    </node>
+    <node id="&quot;TEXAS&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Texas is the state where HCTRA manages toll roads and where BancPass services are applicable."</data>
+      <data key="d2">chunk-c8329b539fb119d1a84a86d45f0929c4</data>
+    </node>
+    <node id="&quot;CONTINUATION FEE REDUCTION&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Refers to fee reductions on subsequent violations not addressed during previous adjustments, with up to 15 invoices allowed per policy."</data>
+      <data key="d2">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </node>
+    <node id="&quot;EZ INVOICING SYSTEM&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The EZ Invoicing system, effective from September 5, 2023, combines multiple billing cycles into a single notice to streamline the process of managing unpaid transactions and associated fines."</data>
+      <data key="d2">chunk-7e437ef662863633c256e063daca0800</data>
+    </node>
+    <node id="&quot;EFT INFORMATION (BANK ACCOUNT)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Electronic funds transfer data used for processing payments, handled securely within HCTRA's systems."</data>
+      <data key="d2">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </node>
+    <node id="&quot;$20 MINIMUM&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Represents the auto-charged account's minimum balance requirement for EZ TAG Express accounts."</data>
+      <data key="d2">chunk-c8329b539fb119d1a84a86d45f0929c4</data>
+    </node>
+    <node id="&quot;TO BE MAILED INVOICE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A type of invoice generated by the system but not yet mailed to the customer, eligible for a 100% adjustment if both Mail Date and Due Date read 'To Be Mailed'."</data>
+      <data key="d2">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </node>
+    <node id="&quot;OBSERVATION REPORT&quot;">
+      <data key="d0">"DOCUMENT"</data>
+      <data key="d1">"A document utilized by supervisors to monitor and assess the performance of trainees during practical sessions."</data>
+      <data key="d2">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </node>
+    <node id="&quot;ADDISON&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"City included in the route of the Dallas/Fort Worth expressway."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;CREDIT CARD CVC NUMBERS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Security codes on credit cards not used by HCTRA to protect customer information."</data>
+      <data key="d2">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </node>
+    <node id="&quot;CREDIT CARD&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"The only payment option available for funding EZ TAG Express accounts."</data>
+      <data key="d2">chunk-c8329b539fb119d1a84a86d45f0929c4</data>
+    </node>
+    <node id="&quot;DALLAS/FORT WORTH EXPRESSWAY&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"A six-lane limited access expressway managed by NTTA, enhancing connectivity among several cities."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;WESTSIDE&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Location associated with a specific training attendance line number for HCTRA staff."</data>
+      <data key="d2">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </node>
+    <node id="&quot;DMV&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"DMV refers to the Department of Motor Vehicles that holds registration details relevant to customer interactions with HCTRA."</data>
+      <data key="d2">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+    </node>
+    <node id="&quot;CUSTOMER DATE OF BIRTH&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Not collected or used by HCTRA to maintain customer confidentiality."</data>
+      <data key="d2">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </node>
+    <node id="&quot;LICENSE PLATE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A key identifier for vehicles associated with EZ TAG Express and BancPass accounts, critical for toll transactions."</data>
+      <data key="d2">chunk-c8329b539fb119d1a84a86d45f0929c4</data>
+    </node>
+    <node id="&quot;MANNED BOOTH INVOICES SECTION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Section for invoicing related to manned toll booths."</data>
+      <data key="d2">chunk-06c63a82d989f192114e179782edcac5</data>
+    </node>
+    <node id="&quot;REAR PLATE CAMERAS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Cameras installed to capture images of vehicle rear plates on toll roads. There are 691 cameras installed, with two per lane except at one bridge where only a single camera is used."</data>
+      <data key="d2">chunk-f4c9959d627ab1b30cb8d750c2980041</data>
+    </node>
+    <node id="&quot;COUNTY ATTORNEY FEE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A fee component of a violation invoice, adjustable along with Administrative and Collection Fees."&lt;SEP&gt;"The County Attorney Fee is $1.00 per transaction for TVI invoices and applies under certain conditions."</data>
+      <data key="d2">chunk-613936b1c07669b324a719f22b1b3988&lt;SEP&gt;chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </node>
+    <node id="&quot;CUSTOMER SOCIAL SECURITY NUMBER&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Personal identification number not utilized by HCTRA, ensuring privacy and security for customers."</data>
+      <data key="d2">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </node>
+    <node id="&quot;TVI INVOICES&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"TVI Invoices are generated after 3 unpaid tolls and include administrative fees, county attorney fees, and collection fees."</data>
+      <data key="d2">chunk-613936b1c07669b324a719f22b1b3988</data>
+    </node>
+    <node id="&quot;PAYMENT PLAN SECTION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Part of the Open Items screen that provides options for payment plans."</data>
+      <data key="d2">chunk-06c63a82d989f192114e179782edcac5</data>
+    </node>
+    <node id="&quot;TVZ (TOLL VIOLATION ZERO FEE)&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"TVZ refers to a type of Toll Violation Invoice issued by HCTRA with no additional fees for up to 25 toll violation events."</data>
+      <data key="d2">chunk-7e437ef662863633c256e063daca0800</data>
+    </node>
+    <node id="&quot;ADJUSTMENT BY PERCENTAGE (%)&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"One method available for adjusting fees on an invoice in the HCTRA system."</data>
+      <data key="d2">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </node>
+    <node id="&quot;TEMPORARY LICENSE PLATES&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"License plates that are temporary in nature, typically having a specific format with numbers and one letter (e.g., '09876B6')."</data>
+      <data key="d2">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </node>
+    <node id="&quot;TVZ INVOICES&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"TVZ Invoices are generated after 3 unpaid tolls, can include up to 25 unpaid tolls, and have specific fees including county fines and collection fees."</data>
+      <data key="d2">chunk-613936b1c07669b324a719f22b1b3988</data>
+    </node>
+    <node id="&quot;COLLECTION INVOICES SECTION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Displays invoices referred to collections due to non-payment."</data>
+      <data key="d2">chunk-06c63a82d989f192114e179782edcac5</data>
+    </node>
+    <node id="&quot;HCTRA (HOUSTON COUNTY TOLL ROAD AUTHORITY)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Authority responsible for managing toll roads like Katy Managed Lanes and implementing interoperability with other electronic toll systems."&lt;SEP&gt;"HCTRA is an organization responsible for issuing toll violation invoices, including Zero Fee and One Dollar Fine invoices, and managing EZ Invoice processes."&lt;SEP&gt;"HCTRA is responsible for operating and maintaining various toll roads including Hardy Toll Road, Westpark Tollway, Tomball Tollway, and managed lanes. It works on projects like the All Electronic Tolling conversion."&lt;SEP&gt;"HCTRA is the authority managing EZ TAG accounts and BancPass tags in Texas, offering various toll road services."</data>
+      <data key="d2">chunk-c2e1604deb13a394d2a12fee77988020&lt;SEP&gt;chunk-c8329b539fb119d1a84a86d45f0929c4&lt;SEP&gt;chunk-7e437ef662863633c256e063daca0800&lt;SEP&gt;chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;AMOUNT TO BE ADJUSTED ($)&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Another method for adjusting invoice fees, specifying a dollar amount instead of a percentage."</data>
+      <data key="d2">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </node>
+    <node id="&quot;TOBACCO USE POLICY PL0021&quot;">
+      <data key="d0">"POLICY"</data>
+      <data key="d1">"This policy specifically addresses the use of tobacco products within HCTRA facilities and by its employees."</data>
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </node>
+    <node id="&quot;EZ INVOICES&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"EZ Invoices are generated after 3 unpaid tolls, can include up to 25 unpaid tolls, and have specific fees including an EIN Administrative Fee and collection fee."</data>
+      <data key="d2">chunk-613936b1c07669b324a719f22b1b3988</data>
+    </node>
+    <node id="&quot;HIGHLAND PARK&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"One of the cities traversed by the Dallas/Fort Worth expressway managed by NTTA."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;DELINQUENT UNPAID TOLL VIOLATIONS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Refers to the non-compliance with toll payment policies leading to disciplinary action, including potential termination."</data>
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </node>
+    <node id="&quot;PAYMENT PLAN SYSTEM&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"System through which HCTRA processes and manages customer payment plans."</data>
+      <data key="d2">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+    </node>
+    <node id="&quot;EIN ADMINISTRATIVE FEE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"The EIN Administrative Fee is $10.00 per invoice for EZ Invoices."</data>
+      <data key="d2">chunk-613936b1c07669b324a719f22b1b3988</data>
+    </node>
+    <node id="&quot;KANSAS TURNPIKE AUTHORITY (KTA)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Operates a 236-mile route in Kansas with electronic toll collection systems like K-TAG's."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;FRONT PLATE CAMERAS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Cameras focused on capturing images of vehicle front plates on AVI (Automatic Vehicle Identification) lanes. A total of 547 cameras are deployed, with two per AVI lane and a single camera at one bridge due to space constraints."</data>
+      <data key="d2">chunk-f4c9959d627ab1b30cb8d750c2980041</data>
+    </node>
+    <node id="&quot;VIOLATION ENFORCEMENT COLLECTIONS CENTER (VECC)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"VECC is a contact point for customers regarding court dates and payment plans related to adjudicated invoices."</data>
+      <data key="d2">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+    </node>
+    <node id="&quot;RITE 2.0/TRIPOS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"RITE 2.0 and triPOS are designated systems used by HCTRA for secure entry of sensitive payment information like credit card numbers and EFT details."</data>
+      <data key="d2">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </node>
+    <node id="&quot;HEARING PROCESS&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The Hearing Process involves demand letters, phone calls, administrative hearings, and potential penalties such as vehicle registration blocks or boots for unpaid invoices."</data>
+      <data key="d2">chunk-613936b1c07669b324a719f22b1b3988</data>
+    </node>
+    <node id="&quot;COLLECTION AGENCY&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Agency contacted for collection purposes when invoices are not paid on time or addresses cannot be located through skip tracing."</data>
+      <data key="d2">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+    </node>
+    <node id="&quot;TOLL VIOLATION ENFORCEMENT SECTION&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"A section within the HCTRA established for handling toll violations and processing images from cameras on the toll road system."</data>
+      <data key="d2">chunk-f4c9959d627ab1b30cb8d750c2980041</data>
+    </node>
+    <node id="&quot;CLOSED EZ TAG ACCOUNTS&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Accounts that have been closed and cannot be re-opened under EZ TAG policies."</data>
+      <data key="d2">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </node>
+    <node id="&quot;FEE REDUCTION POLICY&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The Fee Reduction Policy allows for reductions in fees per license plate, revised as of September 2023, and requires a script or acknowledgment before processing."</data>
+      <data key="d2">chunk-613936b1c07669b324a719f22b1b3988</data>
+    </node>
+    <node id="&quot;HCTRA.ORG&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The online platform where customers can manage their Flex Pay or EZ TAG accounts, make payments, and receive account notifications."&lt;SEP&gt;"The website where customers can pay tolls and invoices, displaying all transactions and allowing partial payments."</data>
+      <data key="d2">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b&lt;SEP&gt;chunk-bbe78f44e95095ef3b0095bb2d3477f4</data>
+    </node>
+    <node id="&quot;TEXAS TRANSPORTATION CODE SECTION 284&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A legal provision that prohibits operating a vehicle on tolled roads without paying required tolls, forming the basis for HCTRA's enforcement actions."</data>
+      <data key="d2">chunk-f4c9959d627ab1b30cb8d750c2980041</data>
+    </node>
+    <node id="&quot;REFUND METHOD VERIFICATION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Refund Method Verification is the process of ensuring the payment method on file is correct for processing refunds, which can take 3-5 business days for credit cards or 6-8 weeks for checks."</data>
+      <data key="d2">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </node>
+    <node id="&quot;FRP (FEE REDUCTION PROGRAM)&quot;">
+      <data key="d0">"PROGRAM"</data>
+      <data key="d1">"The FRP allows EZ TAG account holders to utilize fee reductions twice within 365 days, while violator accounts can use it once within the same period."</data>
+      <data key="d2">chunk-613936b1c07669b324a719f22b1b3988</data>
+    </node>
+    <node id="&quot;BAD ADDRESS ALERT&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Flag set in the system if a violator's address is invalid, triggering skip tracing efforts on day 31 from the original mail date."</data>
+      <data key="d2">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+    </node>
+    <node id="&quot;SUPERVISORS/LEADS&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"Supervisors or Leads are roles within HCTRA who have the authority to schedule necessary training courses on LearningZen for employees."</data>
+      <data key="d2">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </node>
+    <node id="&quot;ADJUSTMENT&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Adjustments reduce the invoiced amount and may require approval from a Lead or Supervisor."</data>
+      <data key="d2">chunk-613936b1c07669b324a719f22b1b3988</data>
+    </node>
+    <node id="&quot;TOLL 49, US 59 SPUR, GEORGE RICHEY ROAD EXPANSION, STATE HIGHWAY 149, TEXARKANA WEST LOOP, I-20 EXPRESS LANES, LOOP 571&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Key transportation projects managed by NTRMA, aiming to improve regional mobility."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;ADMINISTRATIVE ADJUDICATION HEARING PROCEDURE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A procedure approved by Harris County Commissioners Court to resolve disputes related to unpaid toll violations through hearings."</data>
+      <data key="d2">chunk-f4c9959d627ab1b30cb8d750c2980041</data>
+    </node>
+    <node id="&quot;OPEN ITEM ACTIONS SECTION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Allows users to perform actions on open items like adding them to a cart."</data>
+      <data key="d2">chunk-06c63a82d989f192114e179782edcac5</data>
+    </node>
+    <node id="&quot;FORT BEND PARKWAY EXTENSION MAINLANE&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"This mainlane is part of the Fort Bend Parkway Extension, offering EZ TAG only access with a single plaza, facilitating travel from Harris County to the Fort Bend County line."</data>
+      <data key="d2">chunk-c2e1604deb13a394d2a12fee77988020</data>
+    </node>
+    <node id="&quot;QUALITY ASSURANCE AND TRAINING SECTION&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"A section within HCTRA dedicated to preparing customer service training materials and overseeing new hire training processes."</data>
+      <data key="d2">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+    </node>
+    <node id="&quot;TEXAS DEPARTMENT OF TRANSPORTATION (TX DOT)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"State agency in partnership with BTG to manage and oversee parts of the SH-288 Express Toll Lanes project."</data>
+      <data key="d2">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;IMAGE REVIEW TEAM&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"A group tasked with reviewing camera-captured images of vehicles on toll roads to identify potential toll violations."</data>
+      <data key="d2">chunk-f4c9959d627ab1b30cb8d750c2980041</data>
+    </node>
+    <node id="&quot;JOB TRAINING&quot;">
+      <data key="d0">"TRAINING PHASE"</data>
+      <data key="d1">"A two-day intensive training program designed to equip new hires with specific job-related skills and knowledge."</data>
+      <data key="d2">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+    </node>
+    <node id="&quot;CENTRAL TEXAS REGIONAL MOBILITY AUTHORITY (CTRMA)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Operates Road 183A, a toll road in northeast Austin, enhancing local mobility."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;TOLL ROAD AUTHORITY&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The Toll Road Authority works with Harris County Attorney's Office and outside legal counsel to maintain administrative hearings for toll violation cases. Currently managing around 800 cases per month in such hearings."</data>
+      <data key="d2">chunk-06c63a82d989f192114e179782edcac5</data>
+    </node>
+    <node id="&quot;CLASSROOM TRAINING&quot;">
+      <data key="d0">"TRAINING PHASE"</data>
+      <data key="d1">"A seven-day classroom-based training focusing on broader customer service concepts, policies, and tools necessary for HCTRA operations."</data>
+      <data key="d2">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+    </node>
+    <node id="&quot;HARRIS COUNTY ATTORNEY'S OFFICE&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Collaborates with the HCTRA in managing and presenting cases in administrative hearings for toll violations."&lt;SEP&gt;"Partner organization working with the Toll Road Authority on maintaining administrative hearing efforts related to toll violations."</data>
+      <data key="d2">chunk-06c63a82d989f192114e179782edcac5&lt;SEP&gt;chunk-f4c9959d627ab1b30cb8d750c2980041</data>
+    </node>
+    <node id="&quot;HCTRA&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"HCTRA (Highway Construction Traffic Regulatory Authority) oversees toll enforcement and fee reduction policies."&lt;SEP&gt;"HCTRA is an organization providing toll services and related facilities in Texas, offering a platform called LearningZen for employee training."&lt;SEP&gt;"HCTRA is an organization with policies on breaks, cell phone use, tobacco use, EZ TAG accounts, dress code, badge requirements, building security, and employee resources."&lt;SEP&gt;"HCTRA is responsible for managing invoices, including issuing, mailing, adjustments, and collections related to toll violations."&lt;SEP&gt;"HCTRA is responsible for managing toll transactions and handling invoice adjustments, collections, and payment plans."&lt;SEP&gt;"HCTRA refers to the organization responsible for toll collection, as indicated by the website www.hctra.org mentioned in the document for customer transactions."&lt;SEP&gt;"Houston County Toll Road Authority, responsible for implementing the HCTRA EZ TAG Benefit discount policy on toll roads, excluding certain lanes and areas."&lt;SEP&gt;"Houston County Transportation Authority (HCTRA) is an organization responsible for handling EZ TAG accounts and vehicle violation disputes."&lt;SEP&gt;"The organization responsible for managing toll roads, issuing invoices, and flagging registration records of vehicles that fail to pay tolls."</data>
+      <data key="d2">chunk-613936b1c07669b324a719f22b1b3988&lt;SEP&gt;chunk-61f9e69d863aaeb9fea37638aba8c3fb&lt;SEP&gt;chunk-bde8b434df7ef06fb90109d54ba1c320&lt;SEP&gt;chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b&lt;SEP&gt;chunk-8d657ce97fbc95544c81a7727027363b&lt;SEP&gt;chunk-c7b91213692237f56c6ea160f1466183&lt;SEP&gt;chunk-7ced8aee0088fc618e65b70c0b1fac4f&lt;SEP&gt;chunk-06c63a82d989f192114e179782edcac5&lt;SEP&gt;chunk-474719a2f3fb6bad15cc5be98356c335</data>
+    </node>
+    <node id="&quot;OKLAHOMA TURNPIKE AUTHORITY&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Manages the Oklahoma Turnpike System, utilizing PIKEPASS as its Electronic Toll Collection System."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;IOP (INTERSTATE OASIS PROGRAM)&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A program that allows participants to use EZ TAG systems on toll roads, applicable within the Katy Managed Lanes."</data>
+      <data key="d2">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;CROSS ACCOUNT HISTORY&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A system function used to check for additional violations across both EZ TAG and Violator accounts."</data>
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </node>
+    <node id="&quot;OUTSIDE LEGAL COUNSEL&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Legal advisors working alongside the Harris County Attorney’s Office to support HCTRA's administrative hearing process for toll violation disputes."</data>
+      <data key="d2">chunk-f4c9959d627ab1b30cb8d750c2980041</data>
+    </node>
+    <node id="&quot;FORT BEND COUNTY TOLL ROAD AUTHORITY (FBCTRA)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Operates toll roads in Fort Bend County, including the 99 Grand Parkway Segment D and Sienna Parkway."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;LEAD APPROVAL&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A necessary authorization from a lead figure required by CSRs to order license plate EZ TAGs for unlisted vehicles."</data>
+      <data key="d2">chunk-474719a2f3fb6bad15cc5be98356c335</data>
+    </node>
+    <node id="&quot;NESTING TRAINING&quot;">
+      <data key="d0">"TRAINING PHASE"</data>
+      <data key="d1">"An eight-day practical training where new hires work live calls or assist in-store under supervision to apply their learned skills."</data>
+      <data key="d2">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+    </node>
+    <node id="&quot;CUSTOMER ACCOUNT&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"An account held by a customer that can have open items or transactions requiring attention."</data>
+      <data key="d2">chunk-06c63a82d989f192114e179782edcac5</data>
+    </node>
+    <node id="&quot;TOLL OPERATIONS DIVISION (TOD) OF TX DOT&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Manages various toll projects across Texas, including Loop 1, State Highway 45, and more."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;LICENSE PLATE TAG&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Tags assigned to vehicles which must match the vehicle using them, involving a process of selection and education for customers regarding responsibility for non-functioning tags."</data>
+      <data key="d2">chunk-474719a2f3fb6bad15cc5be98356c335</data>
+    </node>
+    <node id="&quot;CART SUMMARY SECTION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Summarizes selected items in the user's shopping cart for payment."</data>
+      <data key="d2">chunk-06c63a82d989f192114e179782edcac5</data>
+    </node>
+    <node id="&quot;EZ TAG EXPRESS ACCOUNTS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Prepaid toll accounts managed via a mobile app without a physical tag, offering features like automatic seven-day license plate timeframe."</data>
+      <data key="d2">chunk-474719a2f3fb6bad15cc5be98356c335</data>
+    </node>
+    <node id="&quot;ACCOUNT FEES SECTION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Part of the Open Items screen listing unresolved fees like bounced check NSF fees."</data>
+      <data key="d2">chunk-06c63a82d989f192114e179782edcac5</data>
+    </node>
+    <node id="&quot;PAYMENT INSTALLMENT&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Part of a payment plan where customers can pay off their balance over time."</data>
+      <data key="d2">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+    </node>
+    <node id="&quot;AUTO-REPLENISHMENT&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A feature allowing automatic refilling of account balances when they fall below a certain threshold."</data>
+      <data key="d2">chunk-bbe78f44e95095ef3b0095bb2d3477f4</data>
+    </node>
+    <node id="&quot;UN-INVOICED TRANSACTIONS SECTION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Section in the Open Items interface for unpaid tolls not yet notified to customers."</data>
+      <data key="d2">chunk-06c63a82d989f192114e179782edcac5</data>
+    </node>
+    <node id="&quot;ROAD 183A&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"An 11.6-mile toll road located in northeast Austin, operated by CTRMA."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;LEARNINGZEN&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"LearningZen is an online training platform used by HCTRA employees to access effective training materials from their desks, with courses scheduled as needed by supervisors."</data>
+      <data key="d2">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </node>
+    <node id="&quot;ADVANCED SEARCH&quot;">
+      <data key="d0">"TECHNOLOGY/CONCEPT"</data>
+      <data key="d1">"A deeper search tool used in the transaction field for checking open transactions."&lt;SEP&gt;"Advanced Search is used by CSRs to locate accounts based on detailed criteria like invoice numbers and payment dates."</data>
+      <data key="d2">chunk-e17dcdcb044d200c5999a3b83a079fad&lt;SEP&gt;chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </node>
+    <node id="&quot;HARRIS COUNTY COMMISSIONERS COURT&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The Harris County Commissioners Court approved the adoption of an administrative adjudication hearing procedure for toll violations on May 2, 2000."&lt;SEP&gt;"The governing body that approved additional discounts on tolls for HCTRA EZ TAG users under specific conditions."</data>
+      <data key="d2">chunk-06c63a82d989f192114e179782edcac5&lt;SEP&gt;chunk-474719a2f3fb6bad15cc5be98356c335</data>
+    </node>
+    <node id="&quot;DRESS CODE POLICY PL0003&quot;">
+      <data key="d0">"POLICY"</data>
+      <data key="d1">"A formal policy outlining acceptable dress and appearance standards for HCTRA employees in a professional setting."</data>
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </node>
+    <node id="&quot;OPEN ITEMS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Refers to outstanding items on a customer's account with insufficient balance."</data>
+      <data key="d2">chunk-06c63a82d989f192114e179782edcac5</data>
+    </node>
+    <node id="&quot;UNION PACIFIC RAIL LINE&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"A major rail route intersected by the Brownsville SH 550 toll road."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;EMPLOYEE BADGE REQUIREMENT&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A security measure requiring all employees to wear identification badges at all times on HCTRA property."</data>
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </node>
+    <node id="&quot;ALL ELECTRONIC TOLLING (AET)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The AET project involves converting the Sam Houston Tollway to an all-electronic system, eliminating traditional toll plazas and enhancing traffic flow by removing bottlenecks."</data>
+      <data key="d2">chunk-c2e1604deb13a394d2a12fee77988020</data>
+    </node>
+    <node id="&quot;MAY 2, 2000&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Date when Harris County Commissioners Court approved an adjudication procedure for unpaid toll violation invoices."</data>
+      <data key="d2">chunk-06c63a82d989f192114e179782edcac5</data>
+    </node>
+    <node id="&quot;LOOP 1, STATE HIGHWAY 45, STATE HIGHWAY 130, CAMINO COLUMBIA&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Significant toll roads managed by the TOD of TX DOT, facilitating regional transportation."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;SH-288 EXPRESS TOLL LANES&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"A project managed by Blueridge Transportation Group (BTG) in partnership with Texas Department of Transportation (TX DOT), and Brazoria County Toll Road Authority (BCTRA), providing all-electronic tolling services."</data>
+      <data key="d2">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;ACCOUNT SEARCH&quot;">
+      <data key="d0">"TECHNOLOGY/CONCEPT"</data>
+      <data key="d1">"A feature allowing users to search within the license plate or invoice fields to find account-related information."&lt;SEP&gt;"Account Search allows CSRs to find accounts using various identifiers such as EZ TAG number, License Plate, Phone Number, or Email address, with a wildcard option for alphanumeric searches."</data>
+      <data key="d2">chunk-e17dcdcb044d200c5999a3b83a079fad&lt;SEP&gt;chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </node>
+    <node id="&quot;BROWNSVILLE SH 550&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"A 10-mile toll road operated by CCRMA, providing an overpass to key routes."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;BRAZORIA COUNTY TOLL ROAD AUTHORITY (BCTRA)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Authority managing the south side of the SH-288 Express Toll Lanes from Harris/Brazoria County Line to approximately CR 58."</data>
+      <data key="d2">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </node>
+    <node id="&quot;VIOLATION ENFORCEMENT CENTER (VECC)&quot;">
+      <data key="d0">"ORGANIZATION/DEPARTMENT"</data>
+      <data key="d1">"A specialized center within HCTRA tasked with collections, adjudication of violations, and enforcement actions."</data>
+      <data key="d2">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+    </node>
+    <node id="&quot;TX TAG&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A system used by Texas Tollways to manage toll transactions and violations."</data>
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </node>
+    <node id="&quot;ACCOUNT BALANCE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Account balance refers to the amount of money that is either owed or due for refund, related to customer transactions on EZ TAG accounts."</data>
+      <data key="d2">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </node>
+    <node id="&quot;VIOLATOR ACCOUNT&quot;">
+      <data key="d0">"ORGANIZATION/CATEGORY"</data>
+      <data key="d1">"Accounts that hold outstanding toll violations which need to be resolved before transferring vehicles to an EZ TAG account."</data>
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </node>
+    <node id="&quot;SEARCH SECTION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A section of the Open Items screen used to find specific transactions or invoices."</data>
+      <data key="d2">chunk-06c63a82d989f192114e179782edcac5</data>
+    </node>
+    <node id="&quot;COURT DATE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The scheduled date for legal proceedings related to adjudicated invoices, handled by VECC."</data>
+      <data key="d2">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+    </node>
+    <node id="&quot;TOLL VIOLATIONS/UNINVOICED TOLLS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Incidents or fees related to non-payment or oversight in toll transactions."</data>
+      <data key="d2">chunk-bbe78f44e95095ef3b0095bb2d3477f4</data>
+    </node>
+    <node id="&quot;CSRS&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Customer Service Representatives are responsible for handling customer interactions and documenting each interaction thoroughly."&lt;SEP&gt;"Customer Service Representatives who manage the ordering and approval process for vehicle licenses, including EZ TAGs."</data>
+      <data key="d2">chunk-474719a2f3fb6bad15cc5be98356c335&lt;SEP&gt;chunk-bbe78f44e95095ef3b0095bb2d3477f4</data>
+    </node>
+    <node id="&quot;EZ TAG ACCOUNT HOLDERS&quot;">
+      <data key="d2">chunk-613936b1c07669b324a719f22b1b3988</data>
+      <data key="d1">"The FRP allows EZ TAG account holders to receive fee reductions twice within a year, offering financial relief for toll violations."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;TOLL CHARGES&quot;">
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+      <data key="d1">"The program adjusts toll charges for eligible customers starting from a specific date."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;ACCOUNT STATUS&quot;">
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+      <data key="d1">"Notifications provide insight into when an account may have gone negative."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;NOTIFICATIONS&quot;">
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+      <data key="d1">"Notifications provide insight into when an account may have gone negative."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;TOLL RATE&quot;">
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+      <data key="d1">"Reclassification of vehicles based on axle count affecting the applicable toll rate."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;ACCOUNT ADJUSTMENTS&quot;">
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+      <data key="d1">"Dates used to specify the transaction range for performing account adjustments."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;HCTRA CUSTOMER SERVICE REPRESENTATIVES (CSRS)&quot;">
+      <data key="d2">chunk-ed477ce5de8f18d998ea2cbea69698af</data>
+      <data key="d1">"CSRs may need to escalate certain cases to a Lead or Supervisor for actions such as issuing Toll Declaration Forms to qualifying veterans."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;ACCOUNT ACTIONS&quot;">
+      <data key="d2">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+      <data key="d1">"Account Maintenance provides critical information necessary for executing various Account Actions, such as managing payments and notifications."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;TRAINEES&quot;">
+      <data key="d2">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+      <data key="d1">"Trainees are required to present their Driver's License or ID during training for identification purposes."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;ALL EMPLOYEES&quot;">
+      <data key="d2">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+      <data key="d1">"Under the supervision of Quality Assurance and Training staff, new hires receive practical experience through live calls or assisting customers in the storefront."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;VEHICLE REGISTRATION BLOCK/BOOT&quot;">
+      <data key="d2">chunk-613936b1c07669b324a719f22b1b3988</data>
+      <data key="d1">"The Hearing Process may result in a vehicle registration block or boot if payment is not received, serving as a penalty for non-compliance."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;CUSTOMERS&quot;">
+      <data key="d2">chunk-bbe78f44e95095ef3b0095bb2d3477f4</data>
+      <data key="d1">"Customers use hctra.org to manage their accounts, make payments, and monitor account statuses."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;INTERSTATE 20&quot;">
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+      <data key="d1">"The Tyler Outer Loop offers quick access to Interstate 20, enhancing travel efficiency around Tyler."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;VIOLATION DISMISSAL&quot;">
+      <data key="d2">chunk-61f9e69d863aaeb9fea37638aba8c3fb</data>
+      <data key="d1">"The Texas Motor Vehicle Transfer form is used as proof of the transfer of vehicle possession which can lead to the dismissal of associated violations.</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;EMPLOYEES&quot;">
+      <data key="d2">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+      <data key="d1">"Employees must call this phone number to report any attendance issues, such as being late or absent."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;HCTRA SYSTEMS&quot;">
+      <data key="d2">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+      <data key="d1">"Bank account details for EFT processed through secure channels within HCTRA's systems."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;EMPLOYEE BREAKS&quot;">
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+      <data key="d1">"HCTRA has policies ensuring employees take full lunch breaks and do not eat at workstations."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;CUSTOMER&quot;">
+      <data key="d2">chunk-61f9e69d863aaeb9fea37638aba8c3fb</data>
+      <data key="d1">"Customers use e-fax as a method to submit required documentation for resolving vehicle violation disputes.</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;NONPAYMENT OF TOLLS&quot;">
+      <data key="d2">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+      <data key="d1">"Legal framework that defines penalties and procedures for toll nonpayment offenses."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;PERSONAL NON-REVENUE ACCOUNT&quot;">
+      <data key="d2">chunk-ed477ce5de8f18d998ea2cbea69698af</data>
+      <data key="d1">"A Personal Non-Revenue Account for active military individuals can be considered under the broader category of EZ TAG Accounts with free passage benefits on HCTRA roads."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;VEHICLE AXLE COUNT&quot;">
+      <data key="d2">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+      <data key="d1">"IVIS technology determines the axle count of vehicles to calculate appropriate toll charges."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;CUSTOMER ELIGIBILITY&quot;">
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+      <data key="d1">"Conditions under which customers can benefit from reduced toll charges."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;AUTOMATED TOLL PAYMENT&quot;">
+      <data key="d2">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+      <data key="d1">"Prepaid Ez Tag accounts facilitate automatic deduction of tolls as vehicles pass through EZ TAG lanes."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;NEW HIRES&quot;">
+      <data key="d2">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+      <data key="d1">"The checklist guides new hires through the nesting phase of their training under supervision."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;VECC&quot;">
+      <data key="d2">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+      <data key="d1">"VECC handles inquiries and processes related to court dates for customers with adjudicated invoices."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;EMPLOYEE RESOURCES&quot;">
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+      <data key="d1">"HCTRANET is an internal website providing HCTRA employees with access to various resources and information."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;HCTRANET&quot;">
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+      <data key="d1">"HCTRANET is an internal website providing HCTRA employees with access to various resources and information."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;SOV DRIVERS&quot;">
+      <data key="d2">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+      <data key="d1">"Single-occupancy vehicle drivers must pay a toll to use the METRO HOT Lanes, which aims to manage congestion and offer flexible commuting options."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;JURISDICTION VERIFICATION&quot;">
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+      <data key="d1">"The state of a license plate is verified to ensure proper jurisdiction handling."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;ACCOUNT INFORMATION&quot;">
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+      <data key="d1">"Used to locate and verify details about accounts using license plates or invoice fields."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;ACCOUNT CHARGES&quot;">
+      <data key="d2">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+      <data key="d1">"Administrative fees added to an account for setting up EZTAG accounts."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;DRESS CODE POLICY&quot;">
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+      <data key="d1">"HCTRA has a dress code policy that outlines acceptable professional business norms and appearance for employees."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;TOBACCO USE POLICY&quot;">
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+      <data key="d1">"HCTRA has a comprehensive tobacco use policy banning smoking in all facilities, including e-cigarettes."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;SENSITIVE INFORMATION&quot;">
+      <data key="d2">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+      <data key="d1">"RITE 2.0 and triPOS are systems used by HCTRA to handle sensitive information such as credit card numbers securely, ensuring PCI compliance."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;HCTRA CUSTOMER SERVICE CENTER (CSC) MANAGEMENT&quot;">
+      <data key="d2">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+      <data key="d1">"The manual is regularly updated and modified based on the decisions of the CSC Management, reflecting changes in customer service policies."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;BADGE REQUIREMENT POLICY&quot;">
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+      <data key="d1">"HCTRA requires employees to wear identification badges at all times while on property for security purposes."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;EZ TAG EXPRESS/BANCPASS&quot;">
+      <data key="d2">chunk-c8329b539fb119d1a84a86d45f0929c4</data>
+      <data key="d1">"License plates are crucial identifiers for managing vehicle-related transactions in both EZ TAG Express and BancPass accounts."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;CREDIT CARD TRANSACTIONS&quot;">
+      <data key="d2">chunk-868a3d8c433896779318c3021994640e</data>
+      <data key="d1">"The RITE system directly impacts credit card transactions by preventing declined cards from further use within the HCTRA's systems."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;THE VEHICLE STATUS 'PROPOSED' IS A CONDITION WITHIN HCTRA'S ACCOUNT MANAGEMENT SYSTEM THAT OCCURS DUE TO ERRORS OR INCOMPLETE ACTIONS BY CUSTOMERS OR CSRS.&quot;">
+      <data key="d2">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+      <data key="d1">"account status, error resolution"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;VEHICLE STATUS 'PROPOSED'&quot;|&gt;&quot;HCTRA&quot;">
+      <data key="d2">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+      <data key="d1">"account status, error resolution"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;TOLL VIOLATION INVOICES&quot;">
+      <data key="d2">chunk-06c63a82d989f192114e179782edcac5</data>
+      <data key="d1">"HCTRA is responsible for issuing and managing toll violation invoices, including procedures for payments and escalations to collections."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;EZ TAG INTEROPERABILITY&quot;">
+      <data key="d2">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+      <data key="d1">"NTTA's toll roads are interoperable with EZ TAG systems, facilitating seamless electronic toll transactions for users traveling in North Texas and other regions."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;MOBILE APP&quot;">
+      <data key="d2">chunk-c8329b539fb119d1a84a86d45f0929c4</data>
+      <data key="d1">"EZ TAG Express accounts can be managed through a mobile app, allowing customers to perform various actions including closing their account."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;HOV (HIGH OCCUPANCY VEHICLE)&quot;">
+      <data key="d2">chunk-c2e1604deb13a394d2a12fee77988020</data>
+      <data key="d1">"During HOV hours, the Katy Managed Lanes are free for carpoolers with multiple occupants, encouraging shared vehicle use and reducing congestion in main lanes."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;PERSONAL CELL PHONES&quot;">
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+      <data key="d1">"HCTRA's policy restricts personal cell phone use during work hours, emphasizing breaks and emergency protocols."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;EMPLOYEE PROFESSIONAL APPEARANCE&quot;">
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+      <data key="d1">"This policy sets guidelines for professional appearance, affecting employee presentation and company image."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;236-MILE ROUTE&quot;">
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+      <data key="d1">"KTA manages a significant highway route in Kansas with advanced electronic toll collection technology for efficient travel."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;PAYMENT PLAN&quot;">
+      <data key="d2">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+      <data key="d1">"Customers can qualify for payment plans if their balance due is $200 or more and they meet other conditions, allowing them to pay in installments."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;SUPERVISORS&quot;">
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+      <data key="d1">"In case of emergencies, employees are instructed to contact their supervisors, aligning with HCTRA's protocol for handling such situations."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;PAREDES LINE ROAD FM1847&quot;">
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+      <data key="d1">"The Brownsville SH 550 toll road provides an overpass for Paredes Line Road FM1847, enhancing local transportation."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;HIGHLAND PARK, UNIVERSITY PARK, ADDISON, FARMERS BRANCH, PLANO, FRISCO&quot;">
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+      <data key="d1">"The expressway connects several cities in the Dallas/Fort Worth area, supporting regional mobility and economic growth."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;99 GRAND PARKWAY SEGMENT D, SIENNA PARKWAY&quot;">
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+      <data key="d1">"FBCTRA operates key toll roads in Fort Bend County, facilitating local and regional travel."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;PIKEPASS&quot;">
+      <data key="d2">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+      <data key="d1">"The Oklahoma Turnpike Authority utilizes PIKEPASS as its Electronic Toll Collection System to facilitate seamless toll transactions across the state."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;HCTRA CSR&quot;">
+      <data key="d2">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+      <data key="d1">"HITE 2.0 is used by CSRs for processing customer information and managing payment plans or disputes regarding vehicle ownership."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;IVR SYSTEM&quot;">
+      <data key="d2">chunk-868a3d8c433896779318c3021994640e</data>
+      <data key="d1">"The IVR system provides automated support for EZ TAG account holders, facilitating operations like balance inquiries and payment processing."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;HCTRA EMPLOYMENT STANDARDS&quot;">
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+      <data key="d1">"Non-compliance with toll policies is considered a breach of employment standards, highlighting the importance of financial responsibility among employees."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;EZ TAG ACCOUNT AND TOLL PROCESSING POLICY&quot;">
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+      <data key="d1">"HCTRA manages EZ TAG accounts through specific policies to ensure proper handling by employees."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;CELL PHONE POLICY&quot;">
+      <data key="d2">chunk-c7b91213692237f56c6ea160f1466183</data>
+      <data key="d1">"HCTRA enforces a strict cell phone policy during work hours to maintain focus and professionalism."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;CUSTOMER PAYMENT METHOD&quot;">
+      <data key="d2">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+      <data key="d1">"The type of Customer Payment Method influences the timeline and process for Refund Method Verification."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;KATY MANAGED LANES&quot;" target="&quot;HOV (HIGH OCCUPANCY VEHICLE) LANES&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The Katy Managed Lanes initiative uses HOV lanes during specific hours for free access by carpoolers, thus managing traffic and encouraging carpooling."</data>
+      <data key="d5">"traffic management, carpooling encouragement"</data>
+      <data key="d6">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </edge>
+    <edge source="&quot;KATY MANAGED LANES&quot;" target="&quot;SOV (SINGLE OCCUPANCY VEHICLE)&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The initiative provides SOV drivers a toll-based option to use the managed lanes for predictable travel times during peak hours."</data>
+      <data key="d5">"traffic management, user fees"</data>
+      <data key="d6">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </edge>
+    <edge source="&quot;KATY MANAGED LANES&quot;" target="&quot;HCTRA&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"HCTRA is tasked with operating and maintaining the Katy Managed Lanes as part of a collaboration involving TxDOT, FHWA, and METRO."</data>
+      <data key="d5">"operation, partnership"</data>
+      <data key="d6">chunk-c2e1604deb13a394d2a12fee77988020</data>
+    </edge>
+    <edge source="&quot;KATY MANAGED LANES&quot;" target="&quot;HOV (HIGH OCCUPANCY VEHICLE)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"During HOV hours, the Katy Managed Lanes are free for carpoolers with multiple occupants, encouraging shared vehicle use and reducing congestion in main lanes."</data>
+      <data key="d5">"carpooling incentive, traffic management"</data>
+      <data key="d6">chunk-c2e1604deb13a394d2a12fee77988020</data>
+    </edge>
+    <edge source="&quot;KATY MANAGED LANES&quot;" target="&quot;HCTRA (HOUSTON COUNTY TOLL ROAD AUTHORITY)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"HCTRA manages the Katy Managed Lanes initiative, focusing on enhancing traffic flow and offering flexible commuting options through managed toll lanes."</data>
+      <data key="d5">"traffic management, regional mobility"</data>
+      <data key="d6">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </edge>
+    <edge source="&quot;DISABLED VETERAN LICENSE PLATE&quot;" target="&quot;TEXAS DEPARTMENT OF MOTOR VEHICLES (TXDMV)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The TxDMV issues Disabled Veteran License Plates that qualify for the HCTRA's Veteran Discount Tolling Program."</data>
+      <data key="d5">"plate issuance, eligibility criteria"</data>
+      <data key="d6">chunk-ed477ce5de8f18d998ea2cbea69698af</data>
+    </edge>
+    <edge source="&quot;DISABLED VETERAN LICENSE PLATE&quot;" target="&quot;VETERAN DISCOUNT TOLLING PROGRAM&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The program provides free tolls to vehicles registered with a Disabled Veteran License Plate."</data>
+      <data key="d5">"benefit provision, eligibility criteria"</data>
+      <data key="d6">chunk-ed477ce5de8f18d998ea2cbea69698af</data>
+    </edge>
+    <edge source="&quot;CREDIT CARD NUMBERS&quot;" target="&quot;RITE 2.0/TRIPOS&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Credit card numbers are securely entered into the RITE 2.0 and triPOS systems."</data>
+      <data key="d5">"Secure handling, PCI compliance"</data>
+      <data key="d6">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </edge>
+    <edge source="&quot;PURPLE HEART MEDAL LICENSE PLATE&quot;" target="&quot;VETERAN DISCOUNT TOLLING PROGRAM&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Eligible veterans holding this plate receive free tolls under the program."</data>
+      <data key="d5">"benefit provision, recognition of service"</data>
+      <data key="d6">chunk-ed477ce5de8f18d998ea2cbea69698af</data>
+    </edge>
+    <edge source="&quot;CLASS MISMATCH ADJUSTMENT&quot;" target="&quot;TOLL RATE&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Reclassification of vehicles based on axle count affecting the applicable toll rate."</data>
+      <data key="d5">"axle count, reclassification"</data>
+      <data key="d6">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </edge>
+    <edge source="&quot;TOLL AUTHORITY&quot;" target="&quot;OPEN ITEMS SCREEN&quot;">
+      <data key="d3">6.0</data>
+      <data key="d4">"The Open Items Screen provides a view managed by the Toll Authority that displays pending transactions, guiding users through completing payments."</data>
+      <data key="d5">"transaction overview, administrative interface"</data>
+      <data key="d6">chunk-ab413a9398713b9534c556f4387bf2aa</data>
+    </edge>
+    <edge source="&quot;TOLL AUTHORITY&quot;" target="&quot;TOTAL AMOUNT ADJUSTED&quot;">
+      <data key="d3">16.0</data>
+      <data key="d4">"The Toll Authority is responsible for financial adjustments related to toll payments, impacting the Total Amount Adjusted figure."</data>
+      <data key="d5">"financial management, transaction adjustment"</data>
+      <data key="d6">chunk-ab413a9398713b9534c556f4387bf2aa</data>
+    </edge>
+    <edge source="&quot;TRANSACTION DATE FIELDS&quot;" target="&quot;ACCOUNT ADJUSTMENTS&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Dates used to specify the transaction range for performing account adjustments."</data>
+      <data key="d5">"date range, adjustment window"</data>
+      <data key="d6">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </edge>
+    <edge source="&quot;EIN FEE&quot;" target="&quot;ACCOUNT CHARGES&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Administrative fees added to an account for setting up EZTAG accounts."</data>
+      <data key="d5">"setup fee, administrative charge"</data>
+      <data key="d6">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </edge>
+    <edge source="&quot;EIN FEE&quot;" target="&quot;REMAINING BALANCE DUE&quot;">
+      <data key="d3">14.0</data>
+      <data key="d4">"The EIN Fee contributes to the calculation of the Remaining Balance Due, adding to the total amount that must be settled."</data>
+      <data key="d5">"fee imposition, balance calculation"</data>
+      <data key="d6">chunk-ab413a9398713b9534c556f4387bf2aa</data>
+    </edge>
+    <edge source="&quot;CSRS (CUSTOMER SERVICE REPRESENTATIVES)&quot;" target="&quot;RITE 2.0&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"CSRs use Rite 2.0 to manage and search for accounts, requiring logins and security protocols like logging out during breaks."</data>
+      <data key="d5">"account management system usage, security protocol compliance"</data>
+      <data key="d6">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </edge>
+    <edge source="&quot;CSRS (CUSTOMER SERVICE REPRESENTATIVES)&quot;" target="&quot;MONTHLY STATEMENTS&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"CSRs provide monthly statements to customers, which are essential for account management and transparency."</data>
+      <data key="d5">"account summary, customer service"</data>
+      <data key="d6">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </edge>
+    <edge source="&quot;ACCOUNT MANAGEMENT&quot;" target="&quot;ADVANCED SEARCH&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Advanced Search allows CSRs to perform detailed searches within the broader Account Management system, enhancing their ability to manage accounts effectively."</data>
+      <data key="d5">"detailed search capability, account management enhancement"</data>
+      <data key="d6">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </edge>
+    <edge source="&quot;REMAINING BALANCE DUE&quot;" target="&quot;FEE REDUCTION PROGRAM&quot;">
+      <data key="d3">6.0</data>
+      <data key="d4">"Participation in the Fee Reduction Program can affect the Remaining Balance Due by potentially reducing fees, altering the final payable amount."</data>
+      <data key="d5">"cost reduction, transaction adjustment"</data>
+      <data key="d6">chunk-ab413a9398713b9534c556f4387bf2aa</data>
+    </edge>
+    <edge source="&quot;EZ TAG&quot;" target="&quot;FLEX PAY ACCOUNTS&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Both EZ Tag and Flex Pay Accounts are managed through the same online platforms but offer different features and requirements."</data>
+      <data key="d5">"account types, payment flexibility"</data>
+      <data key="d6">chunk-bbe78f44e95095ef3b0095bb2d3477f4</data>
+    </edge>
+    <edge source="&quot;EZ TAG&quot;" target="&quot;LICENSE PLATE TAG&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The License Plate Tag system is part of the broader EZ TAG initiative, with specific requirements that customers must be educated on, particularly about responsibility for non-functioning tags."</data>
+      <data key="d5">"system integration, customer education"</data>
+      <data key="d6">chunk-474719a2f3fb6bad15cc5be98356c335</data>
+    </edge>
+    <edge source="&quot;EZ TAG&quot;" target="&quot;HCTRA&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"HCTRA implements policies such as discounts for HCTRA EZ TAG users under certain conditions and manages the overall EZ TAG system including Tagless features and Ez Plate options."</data>
+      <data key="d5">"policy management, toll discounting"</data>
+      <data key="d6">chunk-474719a2f3fb6bad15cc5be98356c335</data>
+    </edge>
+    <edge source="&quot;EZ TAG&quot;" target="&quot;ACCOUNT BALANCE&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The Account Balance is managed by EZ TAG, particularly concerning refunds and account status updates."</data>
+      <data key="d5">"account management, financial process"</data>
+      <data key="d6">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </edge>
+    <edge source="&quot;EZ TAG&quot;" target="&quot;NEGATIVE BALANCE STATUS&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Accounts with a Negative Balance Status are regulated by EZ TAG's policies regarding closure until the balance is cleared."</data>
+      <data key="d5">"financial regulation, policy enforcement"</data>
+      <data key="d6">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </edge>
+    <edge source="&quot;EZ TAG&quot;" target="&quot;VIOLATION CHECKS&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"EZ TAG requires conducting Violation Checks on active vehicles as part of their toll management and compliance enforcement."</data>
+      <data key="d5">"compliance, enforcement process"</data>
+      <data key="d6">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </edge>
+    <edge source="&quot;CALL CENTER&quot;" target="&quot;STOREFRONT&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Both the Call Center and Storefront are integral to HCTRA's customer service strategy, providing complementary channels for customer assistance."</data>
+      <data key="d5">"customer service integration, multi-channel support"</data>
+      <data key="d6">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+    </edge>
+    <edge source="&quot;LICENSE PLATE STATE&quot;" target="&quot;JURISDICTION VERIFICATION&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The state of a license plate is verified to ensure proper jurisdiction handling."</data>
+      <data key="d5">"state verification, jurisdiction"</data>
+      <data key="d6">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </edge>
+    <edge source="&quot;ACCOUNT MAINTENANCE&quot;" target="&quot;ACCOUNT ACTIONS&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Account Maintenance provides critical information necessary for executing various Account Actions, such as managing payments and notifications."</data>
+      <data key="d5">"information provision, action facilitation"</data>
+      <data key="d6">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </edge>
+    <edge source="&quot;QA&amp;T&quot;" target="&quot;SUPERVISORS/LEADS&quot;">
+      <data key="d3">16.0</data>
+      <data key="d4">"QA&amp;T and Supervisors or Leads collaborate to schedule necessary courses on LearningZen for HCTRA employees."</data>
+      <data key="d5">"course scheduling, training management"</data>
+      <data key="d6">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </edge>
+    <edge source="&quot;DAY IN THE LIFE ORIENTATION TRAINING&quot;" target="&quot;JOB TRAINING&quot;">
+      <data key="d3">6.0</data>
+      <data key="d4">"The Day in the Life Orientation serves as an introduction to HCTRA's work culture and expectations before diving into more specific job-related skills during Job Training."</data>
+      <data key="d5">"training sequence, employee orientation"</data>
+      <data key="d6">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+    </edge>
+    <edge source="&quot;FEE REDUCTION PROGRAM DETAILS&quot;" target="&quot;CUSTOMER ELIGIBILITY&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Conditions under which customers can benefit from reduced toll charges."</data>
+      <data key="d5">"eligibility, reduction conditions"</data>
+      <data key="d6">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </edge>
+    <edge source="&quot;METRO HOT LANES&quot;" target="&quot;HOV DRIVERS&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The METRO HOT Lanes initiative provides HOV drivers with free toll access as part of Houston's public transit management strategy."</data>
+      <data key="d5">"transit efficiency, traffic decongestion"</data>
+      <data key="d6">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </edge>
+    <edge source="&quot;METRO HOT LANES&quot;" target="&quot;SOV DRIVERS&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Single-occupancy vehicle drivers must pay a toll to use the METRO HOT Lanes, which aims to manage congestion and offer flexible commuting options."</data>
+      <data key="d5">"traffic management, user fees"</data>
+      <data key="d6">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </edge>
+    <edge source="&quot;CUSTOMER DOCUMENTATION REQUIREMENTS&quot;" target="&quot;EZ TAG ACCOUNT STATUS CHANGE REQUEST&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Submitting an EZ TAG Account Status Change Request necessitates fulfilling specific Customer Documentation Requirements for verification purposes."</data>
+      <data key="d5">"documentation, account management"</data>
+      <data key="d6">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </edge>
+    <edge source="&quot;CREDIT CARDS&quot;" target="&quot;RITE SYSTEM&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Credit cards are directly impacted by the RITE system when specific decline codes cause them to be marked as 'Prevented,' affecting their usability in HCTRA transactions."</data>
+      <data key="d5">"transaction control, financial management"</data>
+      <data key="d6">chunk-868a3d8c433896779318c3021994640e</data>
+    </edge>
+    <edge source="&quot;HCTRA (HARRIS COUNTY TOLL ROAD AUTHORITY)&quot;" target="&quot;RITE SYSTEM&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The RITE system is utilized by HCTRA to manage credit card transactions efficiently, specifically in preventing declined cards from being used further within their systems."</data>
+      <data key="d5">"transaction management, efficiency enhancement"</data>
+      <data key="d6">chunk-868a3d8c433896779318c3021994640e</data>
+    </edge>
+    <edge source="&quot;HCTRA (HARRIS COUNTY TOLL ROAD AUTHORITY)&quot;" target="&quot;IVR (INTERACTIVE VOICE RECOGNITION)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The IVR system is implemented by HCTRA to improve customer service and self-service capabilities for EZ TAG account holders."</data>
+      <data key="d5">"customer service improvement, technology implementation"</data>
+      <data key="d6">chunk-868a3d8c433896779318c3021994640e</data>
+    </edge>
+    <edge source="&quot;SAM HOUSTON TOLLWAY&quot;" target="&quot;ALL ELECTRONIC TOLLING (AET)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The Sam Houston Tollway is the focus of the AET conversion project, aimed at improving traffic flow by removing physical toll plazas and implementing electronic systems."</data>
+      <data key="d5">"infrastructure upgrade, traffic efficiency"</data>
+      <data key="d6">chunk-c2e1604deb13a394d2a12fee77988020</data>
+    </edge>
+    <edge source="&quot;TOLL CREDITS&quot;" target="&quot;TOLL CHARGES&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Adjustments made to toll charges due to various errors or emergency situations."</data>
+      <data key="d5">"adjustment, credit, error correction"</data>
+      <data key="d6">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </edge>
+    <edge source="&quot;EZ-TAG CONVERSION&quot;" target="&quot;NEW ACCOUNT SETUP WIZARD&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"During EZ-Tag Conversion, users follow steps in the New Account setup Wizard to complete the conversion process."</data>
+      <data key="d5">"account setup, toll payment conversion"</data>
+      <data key="d6">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </edge>
+    <edge source="&quot;NON-TAG TRAFFIC LANES&quot;" target="&quot;HCTRA&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"These lanes are managed by HCTRA for drivers without tolling tags, directing them to pay tolls via alternative methods to ensure compliance and minimize traffic disruption."</data>
+      <data key="d5">"toll payment, compliance management"</data>
+      <data key="d6">chunk-c2e1604deb13a394d2a12fee77988020</data>
+    </edge>
+    <edge source="&quot;VETERAN DISCOUNT TOLLING PROGRAM&quot;" target="&quot;HCTRA&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The HCTRA administers the Veteran Discount Tolling Program which offers free tolls to eligible veterans."</data>
+      <data key="d5">"toll administration, veteran support"</data>
+      <data key="d6">chunk-ed477ce5de8f18d998ea2cbea69698af</data>
+    </edge>
+    <edge source="&quot;TEXAS DEPARTMENT OF MOTOR VEHICLES (TXDMV)&quot;" target="&quot;HCTRA&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The HCTRA collaborates with the TxDMV to validate veteran license plates for toll exemptions on Harris County roads."</data>
+      <data key="d5">"collaboration, verification process"</data>
+      <data key="d6">chunk-ed477ce5de8f18d998ea2cbea69698af</data>
+    </edge>
+    <edge source="&quot;NEW VEHICLE ADDITION&quot;" target="&quot;TEMPORARY LICENSE PLATES&quot;">
+      <data key="d3">6.0</data>
+      <data key="d4">"Temporary License Plates must be verified and processed during the New Vehicle Addition to ensure compliance with state regulations."</data>
+      <data key="d5">"vehicle registration, compliance process"</data>
+      <data key="d6">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </edge>
+    <edge source="&quot;NEW VEHICLE ADDITION&quot;" target="&quot;VIOLATION CHECKS&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Adding a new vehicle requires conducting Violation Checks to ensure compliance with traffic regulations before completion."</data>
+      <data key="d5">"compliance, registration process"</data>
+      <data key="d6">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </edge>
+    <edge source="&quot;BUILDING SECURITY MEASURES&quot;" target="&quot;EMPLOYEE BADGE REQUIREMENT&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Wearing badges is part of broader security measures to ensure safe and controlled access within HCTRA facilities."</data>
+      <data key="d5">"security compliance"</data>
+      <data key="d6">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </edge>
+    <edge source="&quot;BLUERIDGE TRANSPORTATION GROUP (BTG)&quot;" target="&quot;SH-288 EXPRESS TOLL LANES&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The project is a collaboration between SH-288 Express Toll Lanes and BTG, focusing on managing toll services north of the Brazoria County line."</data>
+      <data key="d5">"partnership, traffic management"</data>
+      <data key="d6">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </edge>
+    <edge source="&quot;FORT BEND PARKWAY EXTENSION&quot;" target="&quot;WESTPARK TOLLWAY&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The Westpark Tollway connects with the Fort Bend Parkway Extension, facilitating seamless travel between Harris and Fort Bend Counties."</data>
+      <data key="d5">"connectivity, regional integration"</data>
+      <data key="d6">chunk-c2e1604deb13a394d2a12fee77988020</data>
+    </edge>
+    <edge source="&quot;CUSTOMER SERVICE MANUAL&quot;" target="&quot;HCTRA CUSTOMER SERVICE CENTER (CSC) MANAGEMENT&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The manual is regularly updated and modified based on the decisions of the CSC Management, reflecting changes in customer service policies."</data>
+      <data key="d5">"policy management, documentation updates"</data>
+      <data key="d6">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+    </edge>
+    <edge source="&quot;EZ TAG ACCOUNTS&quot;" target="&quot;FLEX PAY ACCOUNT&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Flex Pay accounts offer more flexibility than traditional EZ TAG accounts, allowing for optional auto-charge and not requiring a mailing address."</data>
+      <data key="d5">"account type, payment options"</data>
+      <data key="d6">chunk-bbe78f44e95095ef3b0095bb2d3477f4</data>
+    </edge>
+    <edge source="&quot;EZ TAG ACCOUNTS&quot;" target="&quot;IVR SYSTEM&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The IVR system provides automated support for EZ TAG account holders, facilitating operations like balance inquiries and payment processing."</data>
+      <data key="d5">"automated customer service, self-service facilitation"</data>
+      <data key="d6">chunk-868a3d8c433896779318c3021994640e</data>
+    </edge>
+    <edge source="&quot;MAIL DATE&quot;" target="&quot;DUE DATE&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Both the Mail Date and Due Date are evaluated together to determine if a To Be Mailed Invoice is eligible for adjustment."</data>
+      <data key="d5">"invoice eligibility criteria, date comparison"</data>
+      <data key="d6">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </edge>
+    <edge source="&quot;COUNTY FINE&quot;" target="&quot;TVZ INVOICES&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The County Fine applies to transactions in TVZ Invoices after 31 days from the Mail Date, affecting the overall charges for violators."</data>
+      <data key="d5">"penalty, time-sensitive fees"</data>
+      <data key="d6">chunk-613936b1c07669b324a719f22b1b3988</data>
+    </edge>
+    <edge source="&quot;COUNTY FINE&quot;" target="&quot;EZ INVOICING SYSTEM&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The EZ Invoicing system incorporates County Fines into the billing process, doubling the EZ Tag Rate for toll transactions and adding administrative fees to ensure timely payments."</data>
+      <data key="d5">"billing integration, fine enforcement"</data>
+      <data key="d6">chunk-7e437ef662863633c256e063daca0800</data>
+    </edge>
+    <edge source="&quot;CALL CENTER CSRS&quot;" target="&quot;HCTRA&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Call Center CSRs work on behalf of HCTRA to manage customer inquiries related to vehicle violations and document submissions."</data>
+      <data key="d5">"customer service, document management"</data>
+      <data key="d6">chunk-61f9e69d863aaeb9fea37638aba8c3fb</data>
+    </edge>
+    <edge source="&quot;CALL CENTER CSRS&quot;" target="&quot;RITE 2.0&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Call Center CSRs use RITE 2.0 to document customer encounters related to vehicle violations and EZ TAG account procedures.</data>
+      <data key="d5">"record-keeping, system interaction"</data>
+      <data key="d6">chunk-61f9e69d863aaeb9fea37638aba8c3fb</data>
+    </edge>
+    <edge source="&quot;EMERGENCY PHONE CALLS&quot;" target="&quot;SUPERVISORS&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"In case of emergencies, employees are instructed to contact their supervisors, aligning with HCTRA's protocol for handling such situations."</data>
+      <data key="d5">"emergency protocol"</data>
+      <data key="d6">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </edge>
+    <edge source="&quot;EZ TAG, TX TAG, NTTA TOLL TAG&quot;" target="&quot;STATE HIGHWAY 99 (GRAND PARKWAY)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"State Highway 99 utilizes electronic toll collection technologies such as EZ TAG and others for efficient toll management along the highway."</data>
+      <data key="d5">"electronic tolling, traffic efficiency"</data>
+      <data key="d6">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </edge>
+    <edge source="&quot;E-FAX&quot;" target="&quot;CUSTOMER&quot;">
+      <data key="d3">6.0</data>
+      <data key="d4">"Customers use e-fax as a method to submit required documentation for resolving vehicle violation disputes.</data>
+      <data key="d5">"documentation submission, communication medium"</data>
+      <data key="d6">chunk-61f9e69d863aaeb9fea37638aba8c3fb</data>
+    </edge>
+    <edge source="&quot;TEXAS MOTOR VEHICLE TRANSFER&quot;" target="&quot;VIOLATION DISMISSAL&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The Texas Motor Vehicle Transfer form is used as proof of the transfer of vehicle possession which can lead to the dismissal of associated violations.</data>
+      <data key="d5">"documentation, legal process"</data>
+      <data key="d6">chunk-61f9e69d863aaeb9fea37638aba8c3fb</data>
+    </edge>
+    <edge source="&quot;SMOKING BAN IN FACILITIES&quot;" target="&quot;TOBACCO USE POLICY PL0021&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The policy enforces a comprehensive smoking ban across all facilities, demonstrating HCTRA's commitment to health and safety standards."</data>
+      <data key="d5">"health and safety standards"</data>
+      <data key="d6">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </edge>
+    <edge source="&quot;HCTRA (HIGH-OCCUPANCY/TOLL RATE AUTHORITY)&quot;" target="&quot;AUTOMATED NOTICES&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"HCTRA is responsible for sending automated notices as part of its customer communication strategy."</data>
+      <data key="d5">"customer communication, notification system"</data>
+      <data key="d6">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </edge>
+    <edge source="&quot;HCTRA (HIGH-OCCUPANCY/TOLL RATE AUTHORITY)&quot;" target="&quot;NOTIFICATION PREFERENCES&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"HCTRA uses notification preferences to determine how it communicates with customers, excluding text notifications."</data>
+      <data key="d5">"communication preference, notification management"</data>
+      <data key="d6">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </edge>
+    <edge source="&quot;EXCUSE WINDOW&quot;" target="&quot;FEE REDUCTION PROGRAM&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The Excuse Window is used within the Fee Reduction Program to submit reasons for requesting fee reductions, impacting program outcomes."</data>
+      <data key="d5">"user interaction, request submission"</data>
+      <data key="d6">chunk-ab413a9398713b9534c556f4387bf2aa</data>
+    </edge>
+    <edge source="&quot;TEXAS TOLLWAYS&quot;" target="&quot;TX TAG&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Texas Tollways uses TX Tag to manage toll transactions and violations for vehicles not using an active tag."</data>
+      <data key="d5">"toll management, electronic system"</data>
+      <data key="d6">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </edge>
+    <edge source="&quot;QUALITY ASSURANCE AND TRAINING STAFF&quot;" target="&quot;ALL EMPLOYEES&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Under the supervision of Quality Assurance and Training staff, new hires receive practical experience through live calls or assisting customers in the storefront."</data>
+      <data key="d5">"supervision, training application"</data>
+      <data key="d6">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </edge>
+    <edge source="&quot;QUALITY ASSURANCE AND TRAINING STAFF&quot;" target="&quot;OBSERVATION REPORT&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"This report is used by staff to monitor trainees' performance during practical sessions."</data>
+      <data key="d5">"performance monitoring, quality assurance"</data>
+      <data key="d6">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </edge>
+    <edge source="&quot;SKIP TRACING VENDOR&quot;" target="&quot;BAD ADDRESS ALERT&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Triggered when an alert is set, initiating skip tracing efforts by the vendor to find a new address."</data>
+      <data key="d5">"address resolution, customer location services"</data>
+      <data key="d6">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+    </edge>
+    <edge source="&quot;EXCUSAL TYPE AND REASON&quot;" target="&quot;ADMINISTRATIVE FEE&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The Excusal Type and Reason determine how fees like the Administrative Fee can be adjusted on an invoice in HCTRA's system."</data>
+      <data key="d5">"fee adjustment process, excusal classification"</data>
+      <data key="d6">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </edge>
+    <edge source="&quot;ADMINISTRATIVE FEE&quot;" target="&quot;TVI INVOICES&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Administrative Fees are applied per transaction in TVI Invoices, impacting the total cost for users with unpaid tolls."</data>
+      <data key="d5">"fee structure, administrative costs"</data>
+      <data key="d6">chunk-613936b1c07669b324a719f22b1b3988</data>
+    </edge>
+    <edge source="&quot;NEW HIRE TRAINING OVERVIEW&quot;" target="&quot;QUALITY ASSURANCE AND TRAINING SECTION&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The overview describes the structured training process designed by the Quality Assurance and Training Section to ensure new hires are well-prepared for their roles in HCTRA customer service."</data>
+      <data key="d5">"training program, employee preparation"</data>
+      <data key="d6">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+    </edge>
+    <edge source="&quot;FEE REDUCTION PROGRAM&quot;" target="&quot;TOLL CHARGES&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The program adjusts toll charges for eligible customers starting from a specific date."</data>
+      <data key="d5">"charge adjustment, eligibility"</data>
+      <data key="d6">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </edge>
+    <edge source="&quot;RITE 2.0&quot;" target="&quot;HCTRA CUSTOMER SERVICE REPRESENTATIVES (CSRS)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The RITE 2.0 system is utilized by CSRs for customer assistance and accessing customer accounts within the HCTRA."</data>
+      <data key="d5">"customer service technology, account management"</data>
+      <data key="d6">chunk-ed477ce5de8f18d998ea2cbea69698af</data>
+    </edge>
+    <edge source="&quot;RITE 2.0&quot;" target="&quot;HCTRA CSR&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"HITE 2.0 is used by CSRs for processing customer information and managing payment plans or disputes regarding vehicle ownership."</data>
+      <data key="d5">"customer service platform, data management"</data>
+      <data key="d6">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+    </edge>
+    <edge source="&quot;COLLECTION FEE&quot;" target="&quot;TVI INVOICES&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The Collection Fee is applied to each TVI transaction, affecting the total cost for users with unpaid tolls."</data>
+      <data key="d5">"fee structure, collection costs"</data>
+      <data key="d6">chunk-613936b1c07669b324a719f22b1b3988</data>
+    </edge>
+    <edge source="&quot;COLLECTION FEE&quot;" target="&quot;TVZ INVOICES&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The Collection Fee is applied per invoice in TVZ Invoices, impacting the overall charges for violators."</data>
+      <data key="d5">"collection process, fee application"</data>
+      <data key="d6">chunk-613936b1c07669b324a719f22b1b3988</data>
+    </edge>
+    <edge source="&quot;COLLECTION FEE&quot;" target="&quot;EZ INVOICES&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The Collection Fee is charged per invoice for EZ Invoices, contributing to the financial obligations of users with unpaid tolls."</data>
+      <data key="d5">"fee structure, administrative costs"</data>
+      <data key="d6">chunk-613936b1c07669b324a719f22b1b3988</data>
+    </edge>
+    <edge source="&quot;HARRIS COUNTY TOLL ROAD AUTHORITY (HCTRA)&quot;" target="&quot;QUALITY ASSURANCE AND TRAINING SECTION&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The Quality Assurance and Training Section prepares materials and oversees the New Hire Training program, indicating its integral role within HCTRA's operations."</data>
+      <data key="d5">"training, organizational support"</data>
+      <data key="d6">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+    </edge>
+    <edge source="&quot;HARRIS COUNTY TOLL ROAD AUTHORITY (HCTRA)&quot;" target="&quot;NEW HIRE TRAINING MANUAL &amp; HANDOUTS&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The New Hire Training Manual &amp; Handouts are provided by HCTRA to ensure employees understand and can apply company policies and procedures."</data>
+      <data key="d5">"training materials, policy comprehension"</data>
+      <data key="d6">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </edge>
+    <edge source="&quot;HARRIS COUNTY TOLL ROAD AUTHORITY (HCTRA)&quot;" target="&quot;REAR PLATE CAMERAS&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The HCTRA manages the installation and operation of rear plate cameras to capture vehicle images for toll violation enforcement."</data>
+      <data key="d5">"surveillance, toll enforcement"</data>
+      <data key="d6">chunk-f4c9959d627ab1b30cb8d750c2980041</data>
+    </edge>
+    <edge source="&quot;HARRIS COUNTY TOLL ROAD AUTHORITY (HCTRA)&quot;" target="&quot;FRONT PLATE CAMERAS&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The HCTRA oversees front plate camera operations for capturing vehicles' front plates on AVI lanes as part of their toll violation system."</data>
+      <data key="d5">"surveillance, toll enforcement"</data>
+      <data key="d6">chunk-f4c9959d627ab1b30cb8d750c2980041</data>
+    </edge>
+    <edge source="&quot;HARRIS COUNTY TOLL ROAD AUTHORITY (HCTRA)&quot;" target="&quot;TOLL VIOLATION ENFORCEMENT SECTION&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The Toll Violation Enforcement Section is a division within the HCTRA established to handle toll violations and manage image reviews from cameras on the toll roads."</data>
+      <data key="d5">"enforcement, administrative operations"</data>
+      <data key="d6">chunk-f4c9959d627ab1b30cb8d750c2980041</data>
+    </edge>
+    <edge source="&quot;HARRIS COUNTY TOLL ROAD AUTHORITY (HCTRA)&quot;" target="&quot;TEXAS TRANSPORTATION CODE SECTION 284&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The legal foundation for HCTRA’s ability to enforce toll payments and penalize violators, as outlined in the Texas Transportation Code."</data>
+      <data key="d5">"legal basis, enforcement authority"</data>
+      <data key="d6">chunk-f4c9959d627ab1b30cb8d750c2980041</data>
+    </edge>
+    <edge source="&quot;HARRIS COUNTY TOLL ROAD AUTHORITY (HCTRA)&quot;" target="&quot;ADMINISTRATIVE ADJUDICATION HEARING PROCEDURE&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"A structured process established by HCTRA for resolving disputes over toll violations through administrative hearings, providing a legal avenue outside of the court system."</data>
+      <data key="d5">"legal resolution, dispute management"</data>
+      <data key="d6">chunk-f4c9959d627ab1b30cb8d750c2980041</data>
+    </edge>
+    <edge source="&quot;HARRIS COUNTY TOLL ROAD AUTHORITY (HCTRA)&quot;" target="&quot;OUTSIDE LEGAL COUNSEL&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Provides legal expertise and assistance to the HCTRA in handling complex cases and procedures related to toll violation enforcement."</data>
+      <data key="d5">"legal advice, procedural support"</data>
+      <data key="d6">chunk-f4c9959d627ab1b30cb8d750c2980041</data>
+    </edge>
+    <edge source="&quot;LEAD/SUPERVISOR&quot;" target="&quot;HCTRA CUSTOMER SERVICE REPRESENTATIVES (CSRS)&quot;">
+      <data key="d3">6.0</data>
+      <data key="d4">"CSRs may need to escalate certain cases to a Lead or Supervisor for actions such as issuing Toll Declaration Forms to qualifying veterans."</data>
+      <data key="d5">"role hierarchy, case management"</data>
+      <data key="d6">chunk-ed477ce5de8f18d998ea2cbea69698af</data>
+    </edge>
+    <edge source="&quot;TRAINING CENTER&quot;" target="&quot;ALL EMPLOYEES&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"All employees are required to report to the Training Center for classroom hours as part of their job training at HCTRA."</data>
+      <data key="d5">"training requirements, location compliance"</data>
+      <data key="d6">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </edge>
+    <edge source="&quot;TRAINING CENTER&quot;" target="&quot;EARBUDS OR HEADPHONES&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"These devices are used by trainees at the Training Center to access computer-based materials effectively."</data>
+      <data key="d5">"technology use, learning facilitation"</data>
+      <data key="d6">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </edge>
+    <edge source="&quot;TRAINING CENTER&quot;" target="&quot;WESTSIDE&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The Westside location provides a specific phone number for training attendance communication at HCTRA."</data>
+      <data key="d5">"location-specific resource, logistical support"</data>
+      <data key="d6">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </edge>
+    <edge source="&quot;HARDY TOLL ROAD&quot;" target="&quot;AIRPORT CONNECTOR&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The Airport Connector links the Hardy Toll Road directly to George Bush Intercontinental Airport, facilitating easy access for commuters traveling to or from the airport."</data>
+      <data key="d5">"access, connectivity"</data>
+      <data key="d6">chunk-c2e1604deb13a394d2a12fee77988020</data>
+    </edge>
+    <edge source="&quot;HARDY TOLL ROAD&quot;" target="&quot;HCTRA&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"HCTRA operates and maintains the Hardy Toll Road as part of its responsibility for managing various toll roads in the region."</data>
+      <data key="d5">"operation, management"</data>
+      <data key="d6">chunk-c2e1604deb13a394d2a12fee77988020</data>
+    </edge>
+    <edge source="&quot;BILLING PREFERENCES&quot;" target="&quot;EZ TAG ACCOUNT&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Billing preferences are crucial for managing payment methods on EZ TAG Accounts to ensure successful auto-charges."</data>
+      <data key="d5">"payment method management, account settings"</data>
+      <data key="d6">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </edge>
+    <edge source="&quot;NORTHEAST TEXAS REGIONAL MOBILITY AUTHORITY (NTRMA)&quot;" target="&quot;TOLL 49, US 59 SPUR, GEORGE RICHEY ROAD EXPANSION, STATE HIGHWAY 149, TEXARKANA WEST LOOP, I-20 EXPRESS LANES, LOOP 571&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"NTRMA manages multiple transportation projects in Tyler to improve regional mobility."</data>
+      <data key="d5">"infrastructure development, regional connectivity"</data>
+      <data key="d6">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </edge>
+    <edge source="&quot;713-587-7732&quot;" target="&quot;EMPLOYEES&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Employees must call this phone number to report any attendance issues, such as being late or absent."</data>
+      <data key="d5">"attendance communication, procedural compliance"</data>
+      <data key="d6">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </edge>
+    <edge source="&quot;SPECIAL RATE CLASS ASSOCIATION&quot;" target="&quot;VEHICLE/TRANSPONDER TRANSFER&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The Special Rate Class Association feature supports the transfer of vehicles and transponders by displaying relevant associations for CSRs."</data>
+      <data key="d5">"vehicle management, class association"</data>
+      <data key="d6">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </edge>
+    <edge source="&quot;INVOICE&quot;" target="&quot;DELAYED INVOICE&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"A Delayed Invoice is categorized under Invoices where no violation event was recorded within 30 days before mailing, qualifying it for an adjustment."</data>
+      <data key="d5">"validation criteria, adjustment qualification"</data>
+      <data key="d6">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </edge>
+    <edge source="&quot;INVOICE&quot;" target="&quot;FUTURE DATED INVOICING&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Future Dated Invoicing is a specific type of Invoice issued by HCTRA with a date ahead of the current calendar, allowing for adjustments if identified as such."</data>
+      <data key="d5">"invoice categorization, adjustment process"</data>
+      <data key="d6">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </edge>
+    <edge source="&quot;INVOICE&quot;" target="&quot;CONTINUATION FEE REDUCTION&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Continuation Fee Reduction applies as an adjustment category for specific Invoices under HCTRA's policies regarding repeated violations not previously addressed."</data>
+      <data key="d5">"fee reduction policy, invoice categorization"</data>
+      <data key="d6">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </edge>
+    <edge source="&quot;DRIVER'S LICENSE OR ID&quot;" target="&quot;TRAINEES&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Trainees are required to present their Driver's License or ID during training for identification purposes."</data>
+      <data key="d5">"identification, training compliance"</data>
+      <data key="d6">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </edge>
+    <edge source="&quot;TEXAS TRANSPORTATION CODE 284&quot;" target="&quot;NONPAYMENT OF TOLLS&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Legal framework that defines penalties and procedures for toll nonpayment offenses."</data>
+      <data key="d5">"Legislation, penalties"</data>
+      <data key="d6">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </edge>
+    <edge source="&quot;IVIS&quot;" target="&quot;VEHICLE AXLE COUNT&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"IVIS technology determines the axle count of vehicles to calculate appropriate toll charges."</data>
+      <data key="d5">"Toll calculation, vehicle classification"</data>
+      <data key="d6">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </edge>
+    <edge source="&quot;JOHN DOE&quot;" target="&quot;CSRS&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"CSRs document interactions with customers like John Doe, ensuring all necessary details are included for clarity."</data>
+      <data key="d5">"customer interaction, documentation"</data>
+      <data key="d6">chunk-bbe78f44e95095ef3b0095bb2d3477f4</data>
+    </edge>
+    <edge source="&quot;TYLER OUTER LOOP&quot;" target="&quot;INTERSTATE 20&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The Tyler Outer Loop offers quick access to Interstate 20, enhancing travel efficiency around Tyler."</data>
+      <data key="d5">"accessibility improvement, traffic flow optimization"</data>
+      <data key="d6">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </edge>
+    <edge source="&quot;CLASSROOM ETIQUETTE RULES&quot;" target="&quot;TRAINEES&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"These rules are meant to guide trainees' behavior during classroom sessions for effective learning."</data>
+      <data key="d5">"behavioral guidelines, educational environment"</data>
+      <data key="d6">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </edge>
+    <edge source="&quot;EZ TAG ACCOUNT&quot;" target="&quot;PERSONAL NON-REVENUE ACCOUNT&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"A Personal Non-Revenue Account for active military individuals can be considered under the broader category of EZ TAG Accounts with free passage benefits on HCTRA roads."</data>
+      <data key="d5">"account categorization, benefit provision"</data>
+      <data key="d6">chunk-ed477ce5de8f18d998ea2cbea69698af</data>
+    </edge>
+    <edge source="&quot;EZ TAG ACCOUNT&quot;" target="&quot;AUTOMATED TOLL PAYMENT&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Prepaid Ez Tag accounts facilitate automatic deduction of tolls as vehicles pass through EZ TAG lanes."</data>
+      <data key="d5">"Automatic payment, toll system"</data>
+      <data key="d6">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </edge>
+    <edge source="&quot;EZ TAG ACCOUNT&quot;" target="&quot;ACCOUNT SEARCH&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Account Search is a feature that enables CSRs to locate EZ TAG Accounts using various identifiers, facilitating efficient account management."</data>
+      <data key="d5">"search functionality, account identification"</data>
+      <data key="d6">chunk-e17dcdcb044d200c5999a3b83a079fad</data>
+    </edge>
+    <edge source="&quot;EZ TAG ACCOUNT&quot;" target="&quot;VIOLATOR ACCOUNT&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Vehicles must have resolved violations in a Violator account before being added to an EZ TAG account."</data>
+      <data key="d5">"account transition, violation resolution"</data>
+      <data key="d6">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </edge>
+    <edge source="&quot;NOVATIME&quot;" target="&quot;EMPLOYEES&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Employees use NOVAtime for clocking in and out of their shifts, ensuring accurate timekeeping at HCTRA."</data>
+      <data key="d5">"time management, procedural compliance"</data>
+      <data key="d6">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </edge>
+    <edge source="&quot;DMV SEARCH&quot;" target="&quot;CSRS&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"CSRs use DMV Search to verify information such as vehicle ownership and registered addresses during customer interactions."</data>
+      <data key="d5">"verification, customer service"</data>
+      <data key="d6">chunk-bbe78f44e95095ef3b0095bb2d3477f4</data>
+    </edge>
+    <edge source="&quot;EZ TAG EXPRESS&quot;" target="&quot;CREDIT CARD&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Credit cards serve as the exclusive payment method for EZ TAG Express accounts, signifying a specific financial management strategy."</data>
+      <data key="d5">"payment option, exclusivity"</data>
+      <data key="d6">chunk-c8329b539fb119d1a84a86d45f0929c4</data>
+    </edge>
+    <edge source="&quot;EZ TAG EXPRESS&quot;" target="&quot;$20 MINIMUM&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The $20 minimum represents the financial threshold required for maintaining an EZ TAG Express account, indicating its operational and transactional baseline."</data>
+      <data key="d5">"financial requirement, account maintenance"</data>
+      <data key="d6">chunk-c8329b539fb119d1a84a86d45f0929c4</data>
+    </edge>
+    <edge source="&quot;EZ TAG EXPRESS&quot;" target="&quot;HCTRA (HOUSTON COUNTY TOLL ROAD AUTHORITY)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"EZ TAG Express accounts are managed by HCTRA, which offers services like account management via a mobile app."</data>
+      <data key="d5">"account management, service provider"</data>
+      <data key="d6">chunk-c8329b539fb119d1a84a86d45f0929c4</data>
+    </edge>
+    <edge source="&quot;EZ TAG EXPRESS&quot;" target="&quot;MOBILE APP&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"EZ TAG Express accounts can be managed through a mobile app, allowing customers to perform various actions including closing their account."</data>
+      <data key="d5">"account management, digital interaction"</data>
+      <data key="d6">chunk-c8329b539fb119d1a84a86d45f0929c4</data>
+    </edge>
+    <edge source="&quot;NORTH TEXAS TOLLWAY AUTHORITY (NTTA)&quot;" target="&quot;EZ TAG INTEROPERABILITY&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"NTTA's toll roads are interoperable with EZ TAG systems, facilitating seamless electronic toll transactions for users traveling in North Texas and other regions."</data>
+      <data key="d5">"interoperability, traffic efficiency"</data>
+      <data key="d6">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </edge>
+    <edge source="&quot;NORTH TEXAS TOLLWAY AUTHORITY (NTTA)&quot;" target="&quot;DALLAS/FORT WORTH EXPRESSWAY&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"NTTA enhances connectivity among Dallas/Fort Worth area cities through the operation of the expressway."</data>
+      <data key="d5">"regional development, transportation network"</data>
+      <data key="d6">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </edge>
+    <edge source="&quot;RITE SYSTEM&quot;" target="&quot;CSRS&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The RITE system is used by CSRs to monitor and manage customer accounts, especially regarding suspicious activity alerts."</data>
+      <data key="d5">"account management, security monitoring"</data>
+      <data key="d6">chunk-bbe78f44e95095ef3b0095bb2d3477f4</data>
+    </edge>
+    <edge source="&quot;RITE SYSTEM&quot;" target="&quot;CREDIT CARD TRANSACTIONS&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The RITE system directly impacts credit card transactions by preventing declined cards from further use within the HCTRA's systems."</data>
+      <data key="d5">"security measure, transaction control"</data>
+      <data key="d6">chunk-868a3d8c433896779318c3021994640e</data>
+    </edge>
+    <edge source="&quot;BANCPASS&quot;" target="&quot;HCTRA (HOUSTON COUNTY TOLL ROAD AUTHORITY)&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"BancPass operates under the jurisdiction of HCTRA for toll road services in Texas but is not directly associated with EZ TAG Express accounts."</data>
+      <data key="d5">"service provider, geographic limitation"</data>
+      <data key="d6">chunk-c8329b539fb119d1a84a86d45f0929c4</data>
+    </edge>
+    <edge source="&quot;CAMERON COUNTY REGIONAL MOBILITY AUTHORITY (CCRMA)&quot;" target="&quot;BROWNSVILLE SH 550&quot;">
+      <data key="d3">16.0</data>
+      <data key="d4">"CCRMA operates Brownsville SH 550, enhancing regional mobility by providing essential overpasses."&lt;SEP&gt;"The CCRMA oversees the Brownsville SH 550 toll road to provide essential overpasses and improve connectivity within Cameron County."</data>
+      <data key="d5">"infrastructure development, regional mobility"&lt;SEP&gt;"transportation infrastructure, regional mobility"</data>
+      <data key="d6">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d&lt;SEP&gt;chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </edge>
+    <edge source="&quot;NESTING CHECKLIST&quot;" target="&quot;NEW HIRES&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The checklist guides new hires through the nesting phase of their training under supervision."</data>
+      <data key="d5">"training structure, performance assessment"</data>
+      <data key="d6">chunk-ee1ef57a1ea0e469d20630b343cde71a</data>
+    </edge>
+    <edge source="&quot;CONTINUATION FEE REDUCTION&quot;" target="&quot;HCTRA&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"HCTRA processes Continuation Fee Reductions on invoices related to unresolved violations from previous fee reductions, up to a specified limit."</data>
+      <data key="d5">"policy enforcement, fee management"</data>
+      <data key="d6">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </edge>
+    <edge source="&quot;EZ INVOICING SYSTEM&quot;" target="&quot;TVZ (TOLL VIOLATION ZERO FEE)&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The TVZ invoice format is part of HCTRA's broader strategy to streamline billing through the EZ Invoicing system, which includes no additional fees for specific toll violations."</data>
+      <data key="d5">"streamlined billing, policy implementation"</data>
+      <data key="d6">chunk-7e437ef662863633c256e063daca0800</data>
+    </edge>
+    <edge source="&quot;EFT INFORMATION (BANK ACCOUNT)&quot;" target="&quot;HCTRA SYSTEMS&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Bank account details for EFT processed through secure channels within HCTRA's systems."</data>
+      <data key="d5">"Electronic funds transfer, security"</data>
+      <data key="d6">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </edge>
+    <edge source="&quot;TO BE MAILED INVOICE&quot;" target="&quot;HCTRA&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"HCTRA generates and manages To Be Mailed Invoices which have not been mailed but are ready for adjustment if criteria are met."</data>
+      <data key="d5">"invoice management, adjustment eligibility"</data>
+      <data key="d6">chunk-8d657ce97fbc95544c81a7727027363b</data>
+    </edge>
+    <edge source="&quot;DALLAS/FORT WORTH EXPRESSWAY&quot;" target="&quot;HIGHLAND PARK, UNIVERSITY PARK, ADDISON, FARMERS BRANCH, PLANO, FRISCO&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The expressway connects several cities in the Dallas/Fort Worth area, supporting regional mobility and economic growth."</data>
+      <data key="d5">"regional development, urban connectivity"</data>
+      <data key="d6">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </edge>
+    <edge source="&quot;DMV&quot;" target="&quot;HCTRA&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"HCTRA interacts with DMV to verify registration details when processing invoices or handling DMV holds."</data>
+      <data key="d5">"registration verification, customer interaction"</data>
+      <data key="d6">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+    </edge>
+    <edge source="&quot;LICENSE PLATE&quot;" target="&quot;EZ TAG EXPRESS/BANCPASS&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"License plates are crucial identifiers for managing vehicle-related transactions in both EZ TAG Express and BancPass accounts."</data>
+      <data key="d5">"vehicle identification, transaction facilitation"</data>
+      <data key="d6">chunk-c8329b539fb119d1a84a86d45f0929c4</data>
+    </edge>
+    <edge source="&quot;REAR PLATE CAMERAS&quot;" target="&quot;FRONT PLATE CAMERAS&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Both camera types are integral technologies used by the HCTRA for monitoring vehicles and enforcing toll payment regulations. They work in tandem to ensure comprehensive coverage on toll roads."</data>
+      <data key="d5">"complementary technology, surveillance"</data>
+      <data key="d6">chunk-f4c9959d627ab1b30cb8d750c2980041</data>
+    </edge>
+    <edge source="&quot;TVZ (TOLL VIOLATION ZERO FEE)&quot;" target="&quot;HCTRA (HOUSTON COUNTY TOLL ROAD AUTHORITY)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"HCTRA issues TVZ invoices to manage toll violations without additional fees, aiming to simplify enforcement and compliance."</data>
+      <data key="d5">"enforcement simplification, compliance facilitation"</data>
+      <data key="d6">chunk-7e437ef662863633c256e063daca0800</data>
+    </edge>
+    <edge source="&quot;EZ INVOICES&quot;" target="&quot;EIN ADMINISTRATIVE FEE&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The EIN Administrative Fee is charged per invoice for EZ Invoices, contributing to the financial obligations of users with unpaid tolls."</data>
+      <data key="d5">"fee structure, administrative costs"</data>
+      <data key="d6">chunk-613936b1c07669b324a719f22b1b3988</data>
+    </edge>
+    <edge source="&quot;DELINQUENT UNPAID TOLL VIOLATIONS&quot;" target="&quot;HCTRA EMPLOYMENT STANDARDS&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Non-compliance with toll policies is considered a breach of employment standards, highlighting the importance of financial responsibility among employees."</data>
+      <data key="d5">"financial responsibility"</data>
+      <data key="d6">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </edge>
+    <edge source="&quot;PAYMENT PLAN SYSTEM&quot;" target="&quot;CUSTOMER&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Customers can engage with the payment plan system if they meet specific criteria for installment payments on their invoice balances."</data>
+      <data key="d5">"financial planning, installment management"</data>
+      <data key="d6">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+    </edge>
+    <edge source="&quot;KANSAS TURNPIKE AUTHORITY (KTA)&quot;" target="&quot;236-MILE ROUTE&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"KTA manages a significant highway route in Kansas with advanced electronic toll collection technology for efficient travel."</data>
+      <data key="d5">"highway management, electronic tolling"</data>
+      <data key="d6">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </edge>
+    <edge source="&quot;VIOLATION ENFORCEMENT COLLECTIONS CENTER (VECC)&quot;" target="&quot;CUSTOMER&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Customers contact VECC for issues related to court dates and missed payments on adjudicated invoices."</data>
+      <data key="d5">"legal processing, customer support"</data>
+      <data key="d6">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+    </edge>
+    <edge source="&quot;RITE 2.0/TRIPOS&quot;" target="&quot;SENSITIVE INFORMATION&quot;">
+      <data key="d3">18.0</data>
+      <data key="d4">"RITE 2.0 and triPOS are systems used by HCTRA to handle sensitive information such as credit card numbers securely, ensuring PCI compliance."</data>
+      <data key="d5">"secure handling, PCI compliance"</data>
+      <data key="d6">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </edge>
+    <edge source="&quot;HEARING PROCESS&quot;" target="&quot;VEHICLE REGISTRATION BLOCK/BOOT&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The Hearing Process may result in a vehicle registration block or boot if payment is not received, serving as a penalty for non-compliance."</data>
+      <data key="d5">"enforcement action, penalties"</data>
+      <data key="d6">chunk-613936b1c07669b324a719f22b1b3988</data>
+    </edge>
+    <edge source="&quot;COLLECTION AGENCY&quot;" target="&quot;CUSTOMER&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"When a customer fails to pay an invoice or address cannot be located, the case is escalated to the collection agency for further action."</data>
+      <data key="d5">"debt recovery, collections process"</data>
+      <data key="d6">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+    </edge>
+    <edge source="&quot;TOLL VIOLATION ENFORCEMENT SECTION&quot;" target="&quot;IMAGE REVIEW TEAM&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The Image Review Team is essential for assessing camera images captured on toll roads, aiding the Toll Violation Enforcement Section in identifying and processing violations."</data>
+      <data key="d5">"image assessment, violation identification"</data>
+      <data key="d6">chunk-f4c9959d627ab1b30cb8d750c2980041</data>
+    </edge>
+    <edge source="&quot;FEE REDUCTION POLICY&quot;" target="&quot;HCTRA&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"HCTRA administers and revises the Fee Reduction Policy, which governs how fees can be reduced for eligible accounts."</data>
+      <data key="d5">"policy management, fee reduction oversight"</data>
+      <data key="d6">chunk-613936b1c07669b324a719f22b1b3988</data>
+    </edge>
+    <edge source="&quot;HCTRA.ORG&quot;" target="&quot;CUSTOMERS&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Customers use hctra.org to manage their accounts, make payments, and monitor account statuses."</data>
+      <data key="d5">"online management, customer interaction"</data>
+      <data key="d6">chunk-bbe78f44e95095ef3b0095bb2d3477f4</data>
+    </edge>
+    <edge source="&quot;REFUND METHOD VERIFICATION&quot;" target="&quot;HCTRA&quot;">
+      <data key="d3">6.0</data>
+      <data key="d4">"Refund Method Verification involves verifying customer payment methods as part of processing refunds through HCTRA's toll system."</data>
+      <data key="d5">"verification process, financial transaction"</data>
+      <data key="d6">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </edge>
+    <edge source="&quot;REFUND METHOD VERIFICATION&quot;" target="&quot;CUSTOMER PAYMENT METHOD&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The type of Customer Payment Method influences the timeline and process for Refund Method Verification."</data>
+      <data key="d5">"financial transaction, verification process"</data>
+      <data key="d6">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </edge>
+    <edge source="&quot;FRP (FEE REDUCTION PROGRAM)&quot;" target="&quot;EZ TAG ACCOUNT HOLDERS&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The FRP allows EZ TAG account holders to receive fee reductions twice within a year, offering financial relief for toll violations."</data>
+      <data key="d5">"fee reduction eligibility, program benefits"</data>
+      <data key="d6">chunk-613936b1c07669b324a719f22b1b3988</data>
+    </edge>
+    <edge source="&quot;ADMINISTRATIVE ADJUDICATION HEARING PROCEDURE&quot;" target="&quot;HARRIS COUNTY ATTORNEY'S OFFICE&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The Harris County Attorney’s Office plays a crucial role in presenting cases and supporting HCTRA during administrative hearings for toll violations."</data>
+      <data key="d5">"legal support, case presentation"</data>
+      <data key="d6">chunk-f4c9959d627ab1b30cb8d750c2980041</data>
+    </edge>
+    <edge source="&quot;TEXAS DEPARTMENT OF TRANSPORTATION (TX DOT)&quot;" target="&quot;SH-288 EXPRESS TOLL LANES&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The TX DOT collaborates with BTG in managing and overseeing parts of the SH-288 Express Toll Lanes for effective toll service."</data>
+      <data key="d5">"partnership, traffic oversight"</data>
+      <data key="d6">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </edge>
+    <edge source="&quot;CENTRAL TEXAS REGIONAL MOBILITY AUTHORITY (CTRMA)&quot;" target="&quot;ROAD 183A&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"CTRMA operates Road 183A in northeast Austin, contributing to local and regional mobility solutions."</data>
+      <data key="d5">"local mobility, transportation authority"</data>
+      <data key="d6">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </edge>
+    <edge source="&quot;TOLL ROAD AUTHORITY&quot;" target="&quot;HARRIS COUNTY ATTORNEY'S OFFICE&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"These two organizations are working in partnership to maintain administrative hearing efforts concerning toll violations."</data>
+      <data key="d5">"partnership, legal collaboration"</data>
+      <data key="d6">chunk-06c63a82d989f192114e179782edcac5</data>
+    </edge>
+    <edge source="&quot;TOLL ROAD AUTHORITY&quot;" target="&quot;HARRIS COUNTY COMMISSIONERS COURT&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Approved an adjudication procedure for toll violation cases handled by the Toll Road Authority."</data>
+      <data key="d5">"regulatory approval, governance"</data>
+      <data key="d6">chunk-06c63a82d989f192114e179782edcac5</data>
+    </edge>
+    <edge source="&quot;CLASSROOM TRAINING&quot;" target="&quot;NESTING TRAINING&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"After acquiring theoretical knowledge and understanding of customer service concepts in Classroom Training, employees apply their skills practically in Nesting Training."</data>
+      <data key="d5">"knowledge application, practical training"</data>
+      <data key="d6">chunk-42d1aecb9e99b337c4fa6b12891be5bc</data>
+    </edge>
+    <edge source="&quot;HCTRA&quot;" target="&quot;EMPLOYEE BREAKS&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"HCTRA has policies ensuring employees take full lunch breaks and do not eat at workstations."</data>
+      <data key="d5">"workplace policy, employee welfare"</data>
+      <data key="d6">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </edge>
+    <edge source="&quot;HCTRA&quot;" target="&quot;LEARNINGZEN&quot;">
+      <data key="d3">18.0</data>
+      <data key="d4">"HCTRA offers LearningZen as an online training platform to its employees, ensuring effective employee training with courses scheduled as needed."</data>
+      <data key="d5">"employee training, online learning"</data>
+      <data key="d6">chunk-7ced8aee0088fc618e65b70c0b1fac4f</data>
+    </edge>
+    <edge source="&quot;HCTRA&quot;" target="&quot;DRESS CODE POLICY&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"HCTRA has a dress code policy that outlines acceptable professional business norms and appearance for employees."</data>
+      <data key="d5">"professionalism, appearance standards"</data>
+      <data key="d6">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </edge>
+    <edge source="&quot;HCTRA&quot;" target="&quot;TOBACCO USE POLICY&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"HCTRA has a comprehensive tobacco use policy banning smoking in all facilities, including e-cigarettes."</data>
+      <data key="d5">"health policy, facility regulation"</data>
+      <data key="d6">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </edge>
+    <edge source="&quot;HCTRA&quot;" target="&quot;BADGE REQUIREMENT POLICY&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"HCTRA requires employees to wear identification badges at all times while on property for security purposes."</data>
+      <data key="d5">"security measures, employee identification"</data>
+      <data key="d6">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </edge>
+    <edge source="&quot;HCTRA&quot;" target="&quot;TOLL VIOLATION INVOICES&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"HCTRA is responsible for issuing and managing toll violation invoices, including procedures for payments and escalations to collections."</data>
+      <data key="d5">"invoice management, financial processing"</data>
+      <data key="d6">chunk-06c63a82d989f192114e179782edcac5</data>
+    </edge>
+    <edge source="&quot;HCTRA&quot;" target="&quot;UN-INVOICED TRANSACTIONS SECTION&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"This section lists unpaid tolls not yet notified by HCTRA to the customer."</data>
+      <data key="d5">"notification, financial oversight"</data>
+      <data key="d6">chunk-06c63a82d989f192114e179782edcac5</data>
+    </edge>
+    <edge source="&quot;HCTRA&quot;" target="&quot;PERSONAL CELL PHONES&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"HCTRA's policy restricts personal cell phone use during work hours, emphasizing breaks and emergency protocols."</data>
+      <data key="d5">"cell phone usage policy"</data>
+      <data key="d6">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </edge>
+    <edge source="&quot;HCTRA&quot;" target="&quot;EZ TAG ACCOUNT AND TOLL PROCESSING POLICY&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"HCTRA manages EZ TAG accounts through specific policies to ensure proper handling by employees."</data>
+      <data key="d5">"account management, workplace policy"</data>
+      <data key="d6">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </edge>
+    <edge source="&quot;HCTRA&quot;" target="&quot;CELL PHONE POLICY&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"HCTRA enforces a strict cell phone policy during work hours to maintain focus and professionalism."</data>
+      <data key="d5">"professionalism, workplace policy"</data>
+      <data key="d6">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </edge>
+    <edge source="&quot;OKLAHOMA TURNPIKE AUTHORITY&quot;" target="&quot;PIKEPASS&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The Oklahoma Turnpike Authority utilizes PIKEPASS as its Electronic Toll Collection System to facilitate seamless toll transactions across the state."</data>
+      <data key="d5">"electronic toll collection, transportation efficiency"</data>
+      <data key="d6">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </edge>
+    <edge source="&quot;FORT BEND COUNTY TOLL ROAD AUTHORITY (FBCTRA)&quot;" target="&quot;99 GRAND PARKWAY SEGMENT D, SIENNA PARKWAY&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"FBCTRA operates key toll roads in Fort Bend County, facilitating local and regional travel."</data>
+      <data key="d5">"local transportation, infrastructure management"</data>
+      <data key="d6">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </edge>
+    <edge source="&quot;LEAD APPROVAL&quot;" target="&quot;CSRS&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"CSRs must obtain Lead approval to order license plate EZ TAGs for unlisted vehicles, ensuring adherence to organizational policies."</data>
+      <data key="d5">"authorization process, policy compliance"</data>
+      <data key="d6">chunk-474719a2f3fb6bad15cc5be98356c335</data>
+    </edge>
+    <edge source="&quot;CUSTOMER ACCOUNT&quot;" target="&quot;OPEN ITEMS&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Open Items refer to outstanding charges on a customer’s account that need resolution."</data>
+      <data key="d5">"financial status, account management"</data>
+      <data key="d6">chunk-06c63a82d989f192114e179782edcac5</data>
+    </edge>
+    <edge source="&quot;TOLL OPERATIONS DIVISION (TOD) OF TX DOT&quot;" target="&quot;LOOP 1, STATE HIGHWAY 45, STATE HIGHWAY 130, CAMINO COLUMBIA&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The TOD of TX DOT manages significant toll roads across Texas to support state-wide mobility."</data>
+      <data key="d5">"state transportation infrastructure, electronic toll collection"</data>
+      <data key="d6">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </edge>
+    <edge source="&quot;DRESS CODE POLICY PL0003&quot;" target="&quot;EMPLOYEE PROFESSIONAL APPEARANCE&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"This policy sets guidelines for professional appearance, affecting employee presentation and company image."</data>
+      <data key="d5">"professionalism, company image"</data>
+      <data key="d6">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </edge>
+    <edge source="&quot;UNION PACIFIC RAIL LINE&quot;" target="&quot;BROWNSVILLE SH 550&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"The Union Pacific rail line is intersected by the Brownsville SH 550 toll road, facilitating multi-modal transport solutions."</data>
+      <data key="d5">"transportation integration, infrastructure management"</data>
+      <data key="d6">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </edge>
+    <edge source="&quot;SH-288 EXPRESS TOLL LANES&quot;" target="&quot;BRAZORIA COUNTY TOLL ROAD AUTHORITY (BCTRA)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The project extends south under BCTRA management, providing electronic tolling services from Harris/Brazoria County Line to CR 58."</data>
+      <data key="d5">"project extension, traffic management"</data>
+      <data key="d6">chunk-73d9797aa9b9525a35b3a2f138718f0b</data>
+    </edge>
+    <edge source="&quot;ACCOUNT SEARCH&quot;" target="&quot;ACCOUNT INFORMATION&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Used to locate and verify details about accounts using license plates or invoice fields."</data>
+      <data key="d5">"data retrieval, verification"</data>
+      <data key="d6">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </edge>
+    <edge source="&quot;BROWNSVILLE SH 550&quot;" target="&quot;PAREDES LINE ROAD FM1847&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The Brownsville SH 550 toll road provides an overpass for Paredes Line Road FM1847, enhancing local transportation."</data>
+      <data key="d5">"infrastructure improvement, regional connectivity"</data>
+      <data key="d6">chunk-7bcf3c550ec3a090ca8e0dcaf54d673d</data>
+    </edge>
+    <edge source="&quot;VIOLATOR ACCOUNT&quot;" target="&quot;CSRS&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"CSRs can facilitate payments from an EZ TAG account for outstanding balances on a Violator account."</data>
+      <data key="d5">"payment processing, customer service"</data>
+      <data key="d6">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </edge>
+    <edge source="&quot;COURT DATE&quot;" target="&quot;VECC&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"VECC handles inquiries and processes related to court dates for customers with adjudicated invoices."</data>
+      <data key="d5">"legal proceedings, customer support"</data>
+      <data key="d6">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+    </edge>
+    <edge source="&quot;ACCOUNT STATUS&quot;" target="&quot;NOTIFICATIONS&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Notifications provide insight into when an account may have gone negative."</data>
+      <data key="d5">"monitoring, alerts"</data>
+      <data key="d6">chunk-cc58897cc3aac6e23122c6edc492e421</data>
+    </edge>
+    <edge source="&quot;CUSTOMER&quot;" target="&quot;PAYMENT PLAN&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Customers can qualify for payment plans if their balance due is $200 or more and they meet other conditions, allowing them to pay in installments."</data>
+      <data key="d5">"financial assistance, installment payments"</data>
+      <data key="d6">chunk-cb95b9be3caa77c31c0b0a5d9fcdb30b</data>
+    </edge>
+    <edge source="&quot;EMPLOYEE RESOURCES&quot;" target="&quot;HCTRANET&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"HCTRANET is an internal website providing HCTRA employees with access to various resources and information."</data>
+      <data key="d5">"employee resource, information portal"</data>
+      <data key="d6">chunk-c7b91213692237f56c6ea160f1466183</data>
+    </edge>
+    <edge source="&quot;THE VEHICLE STATUS 'PROPOSED' IS A CONDITION WITHIN HCTRA'S ACCOUNT MANAGEMENT SYSTEM THAT OCCURS DUE TO ERRORS OR INCOMPLETE ACTIONS BY CUSTOMERS OR CSRS.&quot;" target="&quot;VEHICLE STATUS 'PROPOSED'&quot;|&gt;&quot;HCTRA&quot;">
+      <data key="d3">6.0</data>
+      <data key="d4">"account status, error resolution"</data>
+      <data key="d5">6</data>
+      <data key="d6">chunk-bde8b434df7ef06fb90109d54ba1c320</data>
+    </edge>
+  </graph>
+</graphml>

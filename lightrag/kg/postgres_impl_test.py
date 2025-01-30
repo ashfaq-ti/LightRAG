@@ -11,7 +11,7 @@ DB = "rag"
 USER = "rag"
 PASSWORD = "rag"
 HOST = "localhost"
-PORT = "15432"
+PORT = "5432"
 os.environ["AGE_GRAPH_NAME"] = "dickens"
 
 if sys.platform.startswith("win"):
@@ -58,10 +58,10 @@ async def main1():
 db = PostgreSQLDB(
     config={
         "host": "localhost",
-        "port": 15432,
+        "port": 5432,
         "user": "rag",
         "password": "rag",
-        "database": "r1",
+        "database": "rag",
     }
 )
 

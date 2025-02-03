@@ -649,6 +649,7 @@ async def kg_query(
         # response = await use_model_func(query,system_prompt='If you do not have an answer to the question, then reply ONLY with "False"',stream=query_param.stream,)
         return PROMPTS["fail_response"]
         # return response
+    print(f"Context===>{context}")
     sys_prompt_temp = PROMPTS["rag_response"]
     sys_prompt = sys_prompt_temp.format(
         context_data=context, response_type=query_param.response_type

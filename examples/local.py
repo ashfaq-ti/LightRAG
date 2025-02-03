@@ -20,17 +20,21 @@ os.environ["NEO4J_PASSWORD"] = "password"
 os.environ["MILVUS_URI"] = "http://127.0.0.1:19530"
 os.environ["MILVUS_USER"] = "root"
 os.environ["MILVUS_PASSWORD"] = "root"
-os.environ["MILVUS_DB_NAME"] = "lightrag1"
+# os.environ["MILVUS_DB_NAME"] = "lightrag1"
+# os.environ["MILVUS_DB_NAME"] = "llamaDB"
+os.environ["MILVUS_DB_NAME"] = "phiDB"
 
 #mongo
 # os.environ["MONGO_URI"] = "mongodb+srv://lokeshdande:vkurQ05x5pqPOZUM@cluster0.ce8rn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 os.environ["MONGO_URI"] = "mongodb+srv://aceprimenum:G8ahSD5QZWa3ixJ7@cluster0.31xjj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-os.environ["MONGO_DATABASE"] = "lightrag1"
+# os.environ["MONGO_DATABASE"] = "lightrag1"
+# os.environ["MONGO_DATABASE"] = "llamaDB"
+os.environ["MONGO_DATABASE"] = "phiDB"
 
 # Apply nest_asyncio to solve event loop issues
 nest_asyncio.apply()
 
-DEFAULT_RAG_DIR = "/home/technoidentity/Desktop/local_test_llama3.1"
+DEFAULT_RAG_DIR = "/home/technoidentity/Desktop/phi_cit_test_local"
 # DEFAULT_RAG_DIR = "/home/technoidentity/Desktop/testing"
 app = FastAPI(title="LightRAG API", description="API for RAG operations")
 
@@ -54,9 +58,9 @@ async def ini_rag():
     rag = LightRAG(
         working_dir=WORKING_DIR,
         llm_model_func=ollama_model_complete,
-        # llm_model_name="phi4:14b-q8_0",
+        llm_model_name="phi4:14b-q8_0",
         # llm_model_name="qwen2.5",
-        llm_model_name="llama3.1",
+        # llm_model_name="llama3.1",
         llm_model_max_async=4,
         llm_model_max_token_size=32768,
         llm_model_kwargs={"host": "http://183.82.7.112:9066/", "options": {"num_ctx": 32768}},
@@ -80,7 +84,7 @@ async def ini_rag():
     )
     return rag
 rag = asyncio.run(ini_rag())
-with open("/home/technoidentity/LightRAG/outputTest.md", "r", encoding="utf-8") as f:
+with open("/home/technoidentity/LightRAG/outputLlama.md", "r", encoding="utf-8") as f:
     rag.insert(f.read())
 
 # Data models
@@ -132,10 +136,11 @@ async def websocket_endpoint(websocket: WebSocket):
 async def query_endpoint(request: QueryRequest):
     try:
         loop = asyncio.get_event_loop()
+        prompt_inclusive_of_citation_request = f"{request.query}also Provide top level reference document names and relevant page numbers that are related to the user's question. DO NOT MENTION ABOUT ENTITIES OR RELATIONSHIPS OR DATA TABLES"
         result = await loop.run_in_executor(
             None,
             lambda: rag.query(
-                request.query,
+                prompt_inclusive_of_citation_request,
                 param=QueryParam(
                     mode=request.mode, only_need_context=request.only_need_context, only_need_prompt=request.only_need_prompt
                 ),
@@ -209,8 +214,8 @@ async def health_check():
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(app, host="0.0.0.0", port=8020, loop='asyncio')
-    # uvicorn.run(app, host="0.0.0.0", port=8020)
+    # uvicorn.run(app, host="0.0.0.0", port=8020, loop='asyncio')
+    uvicorn.run(app, host="0.0.0.0", port=8020)
 
 # Usage example
 # To run the server, use the following command in your terminal:

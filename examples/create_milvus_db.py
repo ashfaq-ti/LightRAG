@@ -2,7 +2,9 @@ from pymilvus import connections, db
 
 conn = connections.connect(host="localhost", port="19530")
 # database = db.create_database("lightrag")
-database = db.create_database("lightrag1")
+# database = db.create_database("lightrag1")
+# database = db.create_database("llamaDB")
+database = db.create_database("phiDB")
 
 
 # from pymilvus import connections, Role

@@ -223,6 +223,7 @@ Given the query, list both high-level and low-level keywords. High-level keyword
 ---Instructions---
 
 - Output the keywords in JSON format.
+- CREATE ONLY ONE JSON OBJECT FOR THE WHOLE USER QUERY.
 - The JSON should have two keys:
   - "high_level_keywords" for overarching concepts or themes.
   - "low_level_keywords" for specific entities or details.
@@ -271,6 +272,16 @@ Output:
 {
   "high_level_keywords": ["Education", "Poverty reduction", "Socioeconomic development"],
   "low_level_keywords": ["School access", "Literacy rates", "Job training", "Income inequality"]
+}
+#############################""",
+    """Example 4:
+
+Query: "What is the full form of SDLC and what is the recipie for lemon rice?"
+################
+Output:
+{
+  "high_level_keywords": ["Full form","Software development life cycle", "Recipie","Lemon rice"],
+  "low_level_keywords": ["SDLC","Software development", "Test-driven development", "Agile methodologies","Lemon rice","receipe"]
 }
 #############################""",
 ]

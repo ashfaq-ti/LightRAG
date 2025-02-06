@@ -40,12 +40,13 @@ if not os.path.exists(WORKING_DIR):
 
 async def ini_rag():
     rag = LightRAG(
+        addon_params={"example_number": 20}, 
         working_dir=WORKING_DIR,
         llm_model_func=ollama_model_complete,
         # llm_model_name="phi4:14b-q8_0",
         # llm_model_name="phi4:14b-q4_K_M",
         # llm_model_name="qwen2.5",
-        llm_model_name="llama3.1",
+        llm_model_name="llama3.1:8b-instruct-q8_0",
         llm_model_max_async=4,
         llm_model_max_token_size=32768,
         llm_model_kwargs={"host": "http://183.82.7.112:9066/", "options": {"num_ctx": 32768}},

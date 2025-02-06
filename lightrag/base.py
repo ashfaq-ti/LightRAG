@@ -31,6 +31,7 @@ class QueryParam:
     max_token_for_global_context: int = 4000
     # Number of tokens for the entity descriptions
     max_token_for_local_context: int = 4000
+    kgContextOnly: bool = True
 
 
 @dataclass

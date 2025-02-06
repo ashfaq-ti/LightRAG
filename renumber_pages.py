@@ -12,7 +12,7 @@ def replace_pattern_in_markdown(input_file, output_file):
         # Define the replacement function
         def replacement_function(match):
             number = int(match.group(1))
-            return f"{{page : {number+1}}}"   #perform whatever add or subtract operation you want to do here
+            return f"{{page : {number-1}}}"   #perform whatever add or subtract operation you want to do here
 
         # Replace all matches in the content
         updated_content = re.sub(pattern, replacement_function, content)
@@ -27,8 +27,8 @@ def replace_pattern_in_markdown(input_file, output_file):
         print(f"An error occurred: {e}")
 
 # Input and output file paths
-input_file = "/home/technoidentity/LightRAG/outputTest.md"
-output_file = "outputLlama.md"
+input_file = "/home/technoidentity/LightRAG/testManual--paginate.md"
+output_file = "bottomPageNums.md"
 
 # Call the function to perform the replacement
 replace_pattern_in_markdown(input_file, output_file)

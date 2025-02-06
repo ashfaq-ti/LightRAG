@@ -59,6 +59,7 @@ async def ini_rag():
         working_dir=WORKING_DIR,
         llm_model_func=ollama_model_complete,
         llm_model_name="phi4:14b-q8_0",
+        # llm_model_name="phi4:14b-q4_K_M",
         # llm_model_name="qwen2.5",
         # llm_model_name="llama3.1",
         llm_model_max_async=4,
@@ -89,10 +90,11 @@ with open("/home/technoidentity/LightRAG/outputLlama.md", "r", encoding="utf-8")
 
 # Data models
 class QueryRequest(BaseModel):
-    query: str
+    prompt: str
     mode: str = "hybrid"
     only_need_context: bool = False
     only_need_prompt: bool = False
+    kgContextOnly: bool = True
 
 
 class InsertRequest(BaseModel):
@@ -136,13 +138,14 @@ async def websocket_endpoint(websocket: WebSocket):
 async def query_endpoint(request: QueryRequest):
     try:
         loop = asyncio.get_event_loop()
-        prompt_inclusive_of_citation_request = f"{request.query}also Provide top level reference document names and relevant page numbers that are related to the user's question. DO NOT MENTION ABOUT ENTITIES OR RELATIONSHIPS OR DATA TABLES"
+        # prompt_inclusive_of_citation_request = f"{request.prompt} also Provide top level reference document names and relevant page numbers ONLY IF THEY ARE RELATED TO THE USER'S QUESTION . DO NOT MENTION ABOUT ENTITIES OR RELATIONSHIPS OR DATA TABLES. ALSO CONSOLIDATE ALL PAGE NUMBERS AT THE END OF RESPONSE for eg. Page numbers : 30,57,23"
+        prompt_inclusive_of_citation_request = f"{request.prompt} also Provide top level reference document names and relevant page numbers ONLY IF THEY ARE RELATED TO THE USER'S QUESTION . DO NOT MENTION ABOUT ENTITIES OR RELATIONSHIPS OR DATA TABLES."
         result = await loop.run_in_executor(
             None,
             lambda: rag.query(
                 prompt_inclusive_of_citation_request,
                 param=QueryParam(
-                    mode=request.mode, only_need_context=request.only_need_context, only_need_prompt=request.only_need_prompt
+                    mode=request.mode, only_need_context=request.only_need_context, only_need_prompt=request.only_need_prompt, kgContextOnly=request.kgContextOnly
                 ),
             ),
         )

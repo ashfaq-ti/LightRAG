@@ -209,7 +209,7 @@ When handling relationships with timestamps:
 {context_data}
 
 Add sections and commentary to the response as appropriate for the length and format. Style the response in markdown.
-If the provided information in "Data tables" is insufficient to answer the question, just say "Sorry, I currently do not have sufficient information to answer this question."
+If the provided information in the above "Data tables" is insufficient to answer the question, just say "Sorry, I currently do not have sufficient information to answer this question.", DO NOT ATTEMPT TO ANSWER IF THE USER's QUESTION CANNOT BE ANSWERED BY ONLY USING THE ABOVE INFORMATION.
 """
 
 PROMPTS["keywords_extraction"] = """---Role---

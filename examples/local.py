@@ -86,30 +86,20 @@ class Response(BaseModel):
 
 
 # API routes
-
 # @app.websocket("/ws")
 # async def websocket_endpoint(websocket: WebSocket):
 #     await websocket.accept()
-
-#     # Receive prompt
 #     prompt = await websocket.receive_text()
-#     loop = asyncio.get_event_loop()
-#     result = await loop.run_in_executor(
-#         None,
-#         lambda: rag.query(
-#             prompt,
-#             param=QueryParam(
-#                 mode="hybrid",stream=True
-#             ),
-#         ),
+#     result = await asyncio.to_thread(
+#         rag.query,
+#         prompt,
+#         param=QueryParam(mode="hybrid", stream=True),
 #     )
-#     async def print_stream(stream):
-#         async for chunk in stream:
+#     try:
+#         async for chunk in result:
 #             await websocket.send_text(chunk)
-#     if inspect.isasyncgen(result):
-#         asyncio.run(print_stream(result))
-#     else:
-#         raise Exception("Response is not an async generator, which is required for Streaming, There may be a problem with inner dependencies or their connections.")
+#     except Exception as e:
+#         raise Exception(f"{e}Response is not an async generator, which is required for Streaming, There may be a problem with inner dependencies or their connections.")
 #     await websocket.close()
     
 @app.post("/query", response_model=Response)
@@ -117,7 +107,6 @@ async def query_endpoint(request: QueryRequest):
     try:
         loop = asyncio.get_event_loop()
         prompt_inclusive_of_citation_request = f"{request.prompt} also Provide top level reference document names and relevant page numbers ONLY IF THEY ARE RELATED TO THE USER'S QUESTION . DO NOT MENTION ABOUT ENTITIES OR RELATIONSHIPS OR DATA TABLES. ALSO CONSOLIDATE ALL PAGE NUMBERS AT THE END OF RESPONSE for eg. Page numbers : 30,57,23"
-        # prompt_inclusive_of_citation_request = f"{request.prompt}"
         result = await loop.run_in_executor(
             None,
             lambda: rag.query(
